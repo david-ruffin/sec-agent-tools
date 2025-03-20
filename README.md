@@ -10,6 +10,14 @@ This repository contains a set of tools designed to be used with LangChain agent
 
 The repository provides tools for interacting with various SEC-API.io endpoints:
 
+### Query API
+
+- Search and filter all 18 million SEC EDGAR filings
+- Complex query support with boolean operators
+- Filter by form type, date range, company identifiers
+- Pagination and sorting capabilities
+- Structured response format for AI consumption
+
 ### Full Text Search API
 
 - Semantic search across SEC filings
@@ -58,6 +66,25 @@ The repository provides tools for interacting with various SEC-API.io endpoints:
    ```
 
 ## Usage
+
+### Query API
+
+```python
+from query_api.queryapi_toolv5 import SECQueryTool
+
+query_tool = SECQueryTool()
+
+# Search for Tesla's 10-K filings in 2020
+query = {
+    "query": "ticker:TSLA AND formType:\"10-K\" AND filedAt:[2020-01-01 TO 2020-12-31]",
+    "from": "0",
+    "size": "10",
+    "sort": [{ "filedAt": { "order": "desc" } }]
+}
+
+results = query_tool.search_filings(query)
+print(results)
+```
 
 ### Full Text Search
 
