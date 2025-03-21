@@ -1,0 +1,16 @@
+Future Suggestions & Improvements
+================================
+
+1. Query Parameter Planning (2024-03-21)
+---------------------------------------
+Consider implementing a query planner to intelligently determine SEC-API query parameters based on context:
+- Dynamically set 'size' parameter based on query type (single filing vs multiple filings)
+- Handle date ranges automatically
+- Determine appropriate form types
+- Manage sorting parameters
+
+Current workaround: Manually specify size parameter in search_sec_filings() calls.
+
+Priority: Low
+Status: Deferred
+Reason: Core functionality works without it. Can be added if query parameter handling becomes complex. 

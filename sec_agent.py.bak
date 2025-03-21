@@ -1,0 +1,164 @@
+"""
+SEC-API LangChain Agent
+
+This script creates a LangChain agent that can use all SEC-API tools to answer
+questions about SEC filings.
+"""
+
+import os
+import sys
+import importlib.util
+from typing import Dict, Any, List
+from dotenv import load_dotenv
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, 
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+# Configure environment
+load_dotenv()
+SEC_API_KEY = os.getenv("SEC_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-3.5-turbo")
+
+if not SEC_API_KEY or not OPENAI_API_KEY:
+    logger.error("SEC_API_KEY or OPENAI_API_KEY not found in .env file")
+    sys.exit(1)
+
+# Import LangChain components
+from langchain.agents import AgentType, initialize_agent
+from langchain_openai import ChatOpenAI
+from langchain.tools import StructuredTool
+
+# Import SEC-API tools
+sys.path.append('.')
+from query_api.queryapi_toolv5 import search_sec_filings as query_search
+
+# Import full text search directly (using underscore filename instead of hyphen)
+from full_text_search.sec_api_langchain_fulltextsearch_tool_v8 import search_sec_filings as fulltext_search
+
+# Import other tools
+from extractor_api.extractor_apiv9 import SECExtractorTool
+from edgar_entities_api.edgar_entities_apiv2 import SECEdgarEntitiesAPI
+from xbrl_api.xbrl_apiv1 import SECXbrlTool
+
+# Create tool instances
+extractor_tool = SECExtractorTool()
+entities_api = SECEdgarEntitiesAPI()
+xbrl_tool = SECXbrlTool()
+
+# Define system prompt with clear instructions
+SYSTEM_PROMPT = """You are an expert SEC filing analyst with access to SEC data tools.
+
+Follow these guidelines when using SEC-API tools:
+
+1. Query API: Use for finding specific filings
+   - Format: ticker:TSLA AND formType:"10-K"
+   - Include date ranges when needed: filedAt:[2020-01-01 TO 2020-12-31]
+
+2. Extractor API: Use for getting specific sections  
+   - Requires proper SEC.gov URLs ending in .htm or .html  
+   - Example: https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm  
+   - IMPORTANT: Use ONLY these exact section IDs (no prefixes like "Item"):  
+     * "1" for Business  
+     * "1A" for Risk Factors  
+     * "1B" for Unresolved Staff Comments  
+     * "1C" for Cybersecurity  
+     * "2" for Properties  
+     * "3" for Legal Proceedings  
+     * "4" for Mine Safety Disclosures  
+     * "5" for Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities  
+     * "6" for Selected Financial Data (prior to February 2021)  
+     * "7" for Management's Discussion and Analysis of Financial Condition and Results of Operations  
+     * "7A" for Quantitative and Qualitative Disclosures about Market Risk  
+     * "8" for Financial Statements and Supplementary Data  
+     * "9" for Changes in and Disagreements with Accountants on Accounting and Financial Disclosure  
+     * "9A" for Controls and Procedures  
+     * "9B" for Other Information  
+     * "10" for Directors, Executive Officers and Corporate Governance  
+     * "11" for Executive Compensation  
+     * "12" for Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters  
+     * "13" for Certain Relationships and Related Transactions, and Director Independence  
+     * "14" for Principal Accountant Fees and Services  
+     * "15" for Exhibits and Financial Statement Schedules  
+
+3. XBRL API: Use for financial data
+   - If no XBRL data is found, inform the user
+   - Requires valid filing URL or accession number
+
+4. Full Text Search: Use for finding mentions across filings
+   - Specify form types and date ranges when needed
+   - Returns relevant snippets from filings
+
+Always explain what you're doing and why.
+"""
+
+# Define tools for LangChain
+tools = [
+    StructuredTool.from_function(
+        func=query_search,
+        name="SECQueryAPI",
+        description="Search SEC filings using exact query syntax (e.g., ticker:TSLA AND formType:\"10-K\")"
+    ),
+    StructuredTool.from_function(
+        func=fulltext_search,
+        name="SECFullTextSearch",
+        description="Search full text of SEC filings for specific terms"
+    ),
+    StructuredTool.from_function(
+        func=extractor_tool.get_section,
+        name="SECExtractSection",
+        description="Extract a section from an SEC filing using a valid SEC.gov URL"
+    ),
+    StructuredTool.from_function(
+        func=entities_api.get_entity_data,
+        name="SECEntityInfo",
+        description="Get company information using ticker or CIK"
+    ),
+    StructuredTool.from_function(
+        func=xbrl_tool.xbrl_to_json,
+        name="SECFinancialData",
+        description="Get XBRL financial data using filing URL or accession number"
+    )
+]
+
+def create_agent():
+    """Create and return a LangChain agent with the SEC tools"""
+    llm = ChatOpenAI(
+        temperature=0,
+        model=OPENAI_MODEL
+    )
+    
+    return initialize_agent(
+        tools=tools,
+        llm=llm,
+        agent=AgentType.STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION,
+        verbose=True,
+        handle_parsing_errors=True,
+        system_message=SYSTEM_PROMPT
+    )
+
+def process_query(query: str) -> str:
+    """Process a user query using the SEC agent"""
+    agent = create_agent()
+    try:
+        return agent.run(query)
+    except Exception as e:
+        logger.error(f"Error processing query: {str(e)}")
+        return f"An error occurred: {str(e)}"
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        # Process command line query
+        query = " ".join(sys.argv[1:])
+        print(process_query(query))
+    else:
+        # Interactive mode
+        print("SEC Filing Analysis Agent (type 'exit' to quit)")
+        while True:
+            query = input("\nEnter your question: ")
+            if query.lower() in ['exit', 'quit']:
+                break
+            print("\n" + process_query(query)) 

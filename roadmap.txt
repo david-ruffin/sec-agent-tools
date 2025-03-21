@@ -1,0 +1,257 @@
+# GOAL: Create a simple, reliable SEC filing analyzer with Contextual Retrieval that directly uses SEC-API.io to fetch and analyze financial data
+
+## Project Overview
+
+This project aims to build a specialized SEC filing analyzer using SEC-API.io with Contextual Retrieval techniques. The system will maintain critical context when retrieving and analyzing SEC filings to provide more accurate and relevant responses to user queries about financial data, textual sections, and multi-filing comparisons.
+
+## Architecture
+
+The core architecture consists of:
+
+1. **API Modules**: Specialized modules for each SEC-API endpoint:
+   - `query_api/`: For searching and retrieving SEC filings metadata
+   - `extractor_api/`: For extracting specific sections from filings
+   - `edgar_entities_api/`: For accessing entity information
+   - `mapping_api/`: For company name resolution
+   - `full_text_search/`: For searching within filing content
+
+2. **Knowledge Module** (`sec_api_knowledge.py`): Contains mappings and helper functions for SEC filing analysis
+
+3. **Core Analyzer** (`sec_analyzer.py`): Basic implementation for processing user queries
+
+4. **Enhanced Implementations**:
+   - With chunking (`sec_analyzer_with_chunking.py`): For handling large document sections
+   - With LangGraph (`sec_analyzer_langgraph.py`): For complex multi-step workflows
+
+## Critical Issues
+
+1. Currently, the XBRL-to-JSON API is not retrieving financial data correctly
+2. The Extractor API is having issues with some filing URLs
+
+## Tasks and Milestones
+
+### Phase 1: Knowledge Module Enhancement (CURRENT)
+
+1. [DONE] Create comprehensive section ID mappings for 10-K, 10-Q, and 8-K filings
+2. [DONE] Map financial metrics to XBRL field names
+3. [DONE] Implement query intent detection (financial vs. textual)
+4. [DONE] Add tool selection logic based on query type
+
+### Phase 2: Context Preservation Implementation
+
+1. [IN PROGRESS] Enhance the SEC-API tools to maintain context between steps:
+   - Add context tracking to company resolution results
+   - Store filing metadata in context when retrieving filings
+   - Preserve section information when extracting content
+   - Maintain financial data context for XBRL results
+
+2. Update core analyzer implementation:
+   - Add context manager class to `sec_analyzer.py`
+   - Implement contextual enrichment for financial data
+   - Add metadata preservation for textual sections
+   - Create helper functions for context tracking
+
+### Phase 3: Multi-Filing Query Support
+
+1. Add support for retrieving and comparing multiple filings:
+   - Implement date range handling for historical queries
+   - Add company comparison functionality
+   - Create helpers for aligning similar sections across filings
+   - Support for tracking changes between filings
+
+2. Enhance contextual retrieval for multi-filing queries:
+   - Preserve relationships between related filings
+   - Track temporal context for time-series analyses
+   - Maintain company context for cross-company comparisons
+
+### Phase 4: Testing and Refinement
+
+1. Create test cases for various query types:
+   - Financial metric queries (revenue, assets, etc.)
+   - Textual section queries (MD&A, risk factors, etc.)
+   - Comparative analyses (across time or companies)
+   - Change detection queries
+
+2. Validate context preservation:
+   - Ensure company context is maintained
+   - Verify temporal context for time-series queries
+   - Validate section context for textual analyses
+
+3. Performance optimization:
+   - Reduce redundant SEC-API calls
+   - Optimize context storage
+   - Improve response generation with proper context
+
+## Implementation Details
+
+### File Structure
+
+```
+sec/
+├── .env                      # Environment variables
+├── requirements.txt          # Project dependencies
+├── README.md                 # Project documentation
+├── roadmap.txt               # Development roadmap
+├── history.txt               # Development history
+├── suggestions.txt           # Future improvement ideas
+│
+├── sec_api_knowledge.py      # SEC API knowledge mappings
+├── sec_analyzer.py           # Basic implementation
+├── sec_analyzer_with_chunking.py  # Implementation with text chunking
+├── sec_analyzer_langgraph.py # Implementation with LangGraph
+│
+├── query_api/                # SEC Query API implementation
+│   ├── query_api.md          # Documentation
+│   └── queryapi_toolv5.py    # Current implementation
+│
+├── extractor_api/            # SEC Extractor API implementation
+│   ├── Extractor_API.md      # Documentation
+│   └── extractor_apiv9.py    # Current implementation
+│
+├── edgar_entities_api/       # SEC EDGAR Entities API implementation
+│   ├── edgar_entities_api.md # Documentation
+│   └── edgar_entities_apiv2.py # Current implementation
+│
+├── mapping_api/              # SEC Mapping API implementation
+│   └── mapping_apiv1.py      # Current implementation
+│
+└── full_text_search/         # SEC Full Text Search implementation
+    ├── sec_api_advanced_queries.md # Documentation
+    └── sec_api_langchain_fulltextsearch_tool_v8.py # Current implementation
+```
+
+### Key Components
+
+1. **SEC API Knowledge Module** (`sec_api_knowledge.py`):
+   - Section ID mappings for different form types
+   - XBRL field mappings for financial metrics
+   - Query intent detection functions
+   - Tool selection logic
+
+2. **API Modules**:
+   - **Query API**: For finding and filtering SEC filings
+   - **Extractor API**: For retrieving specific sections
+   - **Edgar Entities API**: For entity information
+   - **Mapping API**: For company resolution
+   - **Full Text Search API**: For content searching
+
+3. **Context Manager** (to be added to each implementation):
+   - Company context tracking
+   - Filing metadata preservation
+   - Section hierarchy maintenance
+   - Financial data context enrichment
+
+4. **Query Processor** (core of each implementation):
+   - Query parsing and understanding
+   - Tool selection based on query intent
+   - Context-aware execution
+   - Response generation with proper context
+
+### Dependencies
+
+```
+sec-api>=1.0.0         # Official SEC-API Python client
+langchain>=0.1.0       # For LLM integration
+langchain_openai>=0.0.1 # For OpenAI models
+python-dotenv>=1.0.0   # For environment variables
+openai>=1.0.0          # For OpenAI API access
+langgraph>=0.0.23      # Only for LangGraph implementation
+```
+
+## Testing Criteria
+
+1. **Query Understanding**:
+   - Correctly identifies companies mentioned in queries
+   - Properly determines time periods referenced
+   - Accurately detects query intent (financial vs. textual)
+   - Selects appropriate SEC-API tools
+
+2. **Context Preservation**:
+   - Maintains company context throughout analysis
+   - Preserves filing metadata for reference
+   - Tracks section relationships for textual analysis
+   - Retains financial data context for metrics
+
+3. **Response Accuracy**:
+   - Provides correct financial data with proper context
+   - Accurately extracts and analyzes textual sections
+   - Properly compares multiple filings when required
+   - Correctly identifies changes between filings
+
+## Example Test Queries
+
+```
+# Financial Data Extraction
+"What did Immix Biopharma report as revenue for the quarter ended September 30, 2024?"
+"How many shares outstanding did Apple have as of their latest 10-K?"
+
+# Textual Section Analysis
+"Summarize the Management Discussion and Analysis section of Microsoft's 2023 10-K"
+"What are the main risk factors mentioned in Tesla's latest 10-Q?"
+
+# Comparative Analysis
+"Identify and list risk factors that are similar across Apple's four most recent quarterly filings."
+"Compare revenue recognition policies between Microsoft and Amazon in their 2023 10-K filings."
+
+# Change Detection
+"Identify new significant accounting policies introduced in Amazon's latest quarterly report."
+"Detect and analyze new footnote disclosures related to cybersecurity in Tesla's most recent 10-Q."
+```
+
+## Next Immediate Steps
+
+1. Implement the Context Manager class for the basic analyzer
+2. Add context preservation to all SEC-API tool calls
+3. Update query processing to use contextual information
+4. Test with financial metric queries as a baseline
+
+## Current Status
+
+The SEC agent framework is implemented and can process queries without looping issues. However, there are API access issues that need to be resolved:
+
+1. The Extractor API cannot process the filing URLs we're passing it (error: "filing type not supported")
+2. The XBRL-to-JSON API cannot find XBRL data for the filings we're trying to access
+
+Next immediate task: Fix XBRL data extraction from the filings to get the revenue information.
+
+## Next Steps
+
+1. API Verification (Priority)
+   - Test XBRL extraction with the most recent filing URL
+   - Verify correct filing URL format for XBRL API
+   - Document successful XBRL extraction patterns
+   - Implement proper error handling for missing XBRL data
+
+2. Core Functionality
+   - Focus on financial data extraction
+   - Implement proper error messages when XBRL data isn't available
+   - Add fallback methods for financial data retrieval
+   - Handle edge cases gracefully
+
+Dependencies:
+- SEC-API.io account and valid API key
+- Python packages: sec-api, python-dotenv
+
+Testing Criteria:
+1. API Connection
+   - Successfully connects to SEC-API
+   - Returns valid response format
+   - Handles authentication errors
+
+2. Data Retrieval
+   - Correctly fetches company filings
+   - Returns proper dates
+   - Extracts financial metrics accurately
+
+3. Error Handling
+   - Handles missing data gracefully
+   - Reports API errors clearly
+   - Validates input parameters
+
+DO NOT:
+- Over-engineer with LangGraph/agents
+- Add unnecessary abstractions
+- Implement features not directly related to SEC filing analysis
+- Use LLMs for data that can be directly fetched from SEC-API
+
+The test_sec_api.py exists for basic API testing 
