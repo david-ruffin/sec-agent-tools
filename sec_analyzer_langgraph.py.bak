@@ -65,51 +65,95 @@ def resolve_company_info(
         state: Current agent state for caching
     
     Returns:
-        Dictionary containing company information or error
+        Dictionary containing:
+        - success: bool indicating if resolution succeeded
+        - data: company info if success is True
+        - error: error message if success is False
     """
+    # Create cache key
+    cache_key = f"{parameter_type}:{value}"
+    
+    # Check cache if state is provided
+    if state and "company_cache" in state:
+        if cache_key in state["company_cache"]:
+            logger.info(f"Using cached result for {cache_key}")
+            cached = state["company_cache"][cache_key]
+            if state.get("context") is None:
+                state["context"] = {}
+            if cached.get("success"):
+                state["context"]["company_resolved"] = True
+                state["context"]["company_info"] = cached["data"]
+            return cached
+    
     try:
-        # Check if we already have a successful resolution in context
-        if state and state.get("context", {}).get("company_info"):
-            logger.info("Using existing company info from context")
-            return {
-                "success": True,
-                "data": state["context"]["company_info"],
-                "message": "Using existing company info"
-            }
-
         # Use our enhanced mapping API implementation
         result = mapping_api.resolve_company(parameter_type, value)
         
-        # Handle successful resolution
-        if result and (isinstance(result, list) and result or not isinstance(result, list)):
-            company_info = result[0].__dict__ if isinstance(result, list) else result.__dict__
-            
-            # Store in context if we have state
-            if state:
-                if state.get("context") is None:
-                    state["context"] = {}
-                state["context"]["company_info"] = company_info
-            
-            return {
-                "success": True,
-                "data": company_info,
-                "message": "Company resolved successfully"
+        if not result:
+            response = {
+                "success": False,
+                "error": f"No company found for {parameter_type}: {value}",
+                "data": None
             }
+        # If we got a single CompanyInfo object (from return_first_match=True)
+        elif not isinstance(result, list):
+            response = {
+                "success": True,
+                "error": None,
+                "data": result.__dict__
+            }
+        # If we got multiple matches, return the first one
+        else:
+            if result:
+                response = {
+                    "success": True,
+                    "error": None,
+                    "data": result[0].__dict__
+                }
+            else:
+                response = {
+                    "success": False,
+                    "error": f"No company found for {parameter_type}: {value}",
+                    "data": None
+                }
             
-        # Handle no results found
-        return {
-            "success": False,
-            "data": None,
-            "message": f"No company found for {parameter_type}: {value}"
-        }
+        # Cache the result if state is provided
+        if state:
+            if "company_cache" not in state:
+                state["company_cache"] = {}
+            state["company_cache"][cache_key] = response
+            
+            # Update context with resolution status
+            if state.get("context") is None:
+                state["context"] = {}
+            if response["success"]:
+                state["context"]["company_resolved"] = True
+                state["context"]["company_info"] = response["data"]
+            else:
+                state["context"]["company_resolved"] = False
+            
+        return response
         
     except Exception as e:
         logger.error(f"Error in resolve_company_info: {str(e)}")
-        return {
+        error_response = {
             "success": False,
-            "data": None,
-            "message": f"API error: {str(e)}"
+            "error": f"Company resolution failed: {str(e)}",
+            "data": None
         }
+        
+        # Cache errors too to prevent retries
+        if state:
+            if "company_cache" not in state:
+                state["company_cache"] = {}
+            state["company_cache"][cache_key] = error_response
+            
+            # Update context with resolution status
+            if state.get("context") is None:
+                state["context"] = {}
+            state["context"]["company_resolved"] = False
+            
+        return error_response
 
 #################################################
 # Tool 2: SEC Query API
@@ -416,11 +460,11 @@ def create_planning_agent():
         ("system", f"""You are a planning agent for SEC filing analysis.
         Create a detailed plan to answer questions about SEC filings.
         
-        Available Tools:
-        - ResolveCompany: Get company info from name/ticker
-        - SECQueryAPI: Search for SEC filings
-        - SECExtractSection: Get specific sections from filings
-        - SECFinancialData: Extract XBRL financial data
+        CRITICAL: Company Resolution Rules
+        1. ONLY resolve company info in Step 1 - NEVER AGAIN
+        2. Store company info in context after Step 1
+        3. ALL subsequent steps MUST use company info from context
+        4. NEVER resolve the same company twice
         
         10-K SECTIONS:
         {form_10k_sections}
@@ -431,13 +475,16 @@ def create_planning_agent():
         
         Your output MUST follow this exact format for each step:
         
-        ### Step N: [Step Name]
+        ### Step 1: Resolve Company Info
         #### What Information is Needed:
-        [List required info]
+        Company name or ticker from user query
         #### Tool to Use:
-        [Tool name and parameters]
+        ResolveCompany with parameter_type="name" or "ticker"
         #### Expected Output:
-        [What we expect from this step]
+        Company info stored in context
+        
+        ### Step 2+: [Next Steps]
+        USE COMPANY INFO FROM CONTEXT - NEVER RESOLVE AGAIN
         """),
         ("human", "{input}"),
         MessagesPlaceholder(variable_name="agent_scratchpad"),
@@ -454,11 +501,17 @@ def create_execution_agent(tools: Sequence[StructuredTool]):
         ("system", """You are an execution agent for SEC filing analysis.
         Execute individual steps of the analysis plan EXACTLY as specified.
         
-        When using tools:
-        1. Check the response's "success" field
-        2. If success is false, report the error message and stop
-        3. If success is true, use the data for next steps
-        4. Use existing company info from context when available
+        IMPORTANT RULES:
+        1. Check context["company_resolved"] before any company resolution
+        2. If company_resolved is True, use context["company_info"]
+        3. If company_resolved is False, report error and stop
+        4. NEVER retry failed company resolutions
+        
+        When executing steps:
+        1. Check resolution status in context first
+        2. Use existing company info if resolved
+        3. Stop if company resolution failed
+        4. Never retry failed resolutions
         """),
         ("human", "{input}"),
         MessagesPlaceholder(variable_name="agent_scratchpad"),

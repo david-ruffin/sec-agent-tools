@@ -1,0 +1,944 @@
+ ITEM 1A. RISK FACTORS. 
+
+&#160; 
+
+An investment in our common stock involves a high degree of risk. You should carefully consider the following risk factors and the other information in this Annual Report on Form 10-K before investing in our common stock. Our business and results of operations could be seriously harmed by any of the following risks. The risks set out below are not the only risks we face. Additional risks and uncertainties not currently known to us or that we currently deem to be immaterial also may materially adversely affect our business, financial condition and/or operating results. If any of the following events occur, our business, financial condition and results of operations could be materially adversely affected. In such case, the value and trading price of our common stock could decline, and you may lose all or part of your investment. 
+
+&#160; 
+
+Risks Relating to Our Financial Position and Capital Needs 
+
+&#160; 
+
+We have incurred substantial losses since our inception and anticipate that we will continue to incur substantial and increasing losses for the foreseeable future. 
+
+&#160; 
+
+We are a clinical-stage biopharmaceutical company focused on developing a novel class of TSTx in oncology and inflammation. Investment in biopharmaceutical product development is highly speculative because it entails substantial upfront capital expenditures and significant risk that a product candidate will fail to prove effective, gain regulatory approval or become commercially viable. We do not have any products approved by regulatory authorities and have not generated any revenues from collaboration or licensing agreements or product sales to date, and have incurred significant research, development and other expenses related to our ongoing operations and expect to continue to incur such expenses. As a result, we have not been profitable and have incurred significant operating losses since our inception. For the years ended December 31, 2022 and 2021, we reported net losses of $8,229,713 and $24,383,879, respectively. As of December 31, 2022, we had an accumulated deficit of $37,985,247.
+
+&#160; 
+
+We do not expect to generate revenues for many years, if at all. We expect to continue to incur significant expenses and operating losses for the foreseeable future. We anticipate these losses to increase as we continue to research, develop and seek regulatory approvals for our current product candidates and any additional product candidates we may acquire, and potentially begin to commercialize product candidates that may achieve regulatory approval. We may also encounter unforeseen expenses, difficulties, complications, delays and other unknown factors that may adversely affect our business. The size of our future net losses will depend, in part, on the rate of future growth of our expenses and our ability to generate revenues. Our expenses will further increase as we: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; conduct pre-clinical and clinical trials of our product candidates; &#160; &#160; &#160; &#160; &#9679; in-license or acquire the rights to, and pursue development of, other products, product candidates or technologies; &#160; &#160; &#160; &#160; &#9679; hire additional clinical, manufacturing, quality control, quality assurance and scientific personnel; &#160; &#160; &#160; &#160; &#9679; seek marketing approval for any product candidates that successfully complete clinical trials; ##TABLE_END &#160; 
+
+##TABLE_START 60 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+##TABLE_START &#160; &#9679; establish sales, marketing and distribution capabilities, if we receive, or expect to receive, marketing approval for any product candidates; &#160; &#160; &#160; &#160; &#9679; maintain, expand and protect our intellectual property portfolio; and &#160; &#160; &#160; &#160; &#9679; add operational, financial and management information systems and personnel. ##TABLE_END &#160; 
+
+We need significant additional financing to fund our operations and complete the development and, if approved, the commercialization of our product candidates. If we are unable to raise capital when needed, we could be forced to delay, reduce or eliminate our product development programs or commercialization efforts. 
+
+&#160; 
+
+We will need to raise significant additional capital to complete development and obtain regulatory approval for our product candidates. Although we believe that our existing cash balance of $13,436,714 as of December 31, 2022, and funds available to be raised pursuant to the Sales Agreement, will be sufficient to meet our cash, operational and liquidity requirements for at least 12 months from March 27, 2023, our operating plan may change as a result of many factors currently unknown to us, and we may need additional funds sooner than planned. 
+
+&#160; 
+
+We expect to expend substantial resources for the foreseeable future to continue the clinical development and manufacturing of our product candidates. These expenditures will include costs associated with research and development, potentially acquiring new product candidates or technologies, conducting pre-clinical studies and clinical trials and potentially obtaining regulatory approvals and manufacturing products, as well as marketing and selling products approved for sale, if any. 
+
+&#160; 
+
+Additional funds may not be available when we need them on terms that are acceptable to us, or at all. We have no committed source of additional capital. If adequate funds are not available to us on a timely basis, we may not be able to continue as a going concern or we may be required to delay, limit, reduce or terminate pre-clinical studies, clinical trials or other development activities for our product candidates or target indications, or delay, limit, reduce or terminate our establishment of sales and marketing capabilities or other activities that may be necessary to commercialize our product candidates. 
+
+&#160; 
+
+Raising additional capital may cause dilution to our existing stockholders, restrict our operations or require us to relinquish rights to our product candidates on unfavorable terms to us. 
+
+&#160; 
+
+We may seek additional capital through a variety of means, including through private and public equity offerings and debt financings, collaborations, strategic alliances and marketing, distribution or licensing arrangements. To the extent that we raise additional capital through the sale of equity or convertible debt securities, or through the issuance of shares under management or other types of contracts, or upon the exercise or conversion of outstanding derivative securities, the ownership interests of our stockholders will be diluted, and the terms of such financings may include liquidation or other preferences, anti-dilution rights, conversion and exercise price adjustments and other provisions that adversely affect the rights of our stockholders, including rights, preferences and privileges that are senior to those of our holders of common stock in the event of a liquidation. In addition, debt financing, if available, could include covenants limiting or restricting our ability to take certain actions, such as incurring additional debt, making capital expenditures, entering into licensing arrangements, or declaring dividends and may require us to grant security interests in our assets, including our intellectual property. If we raise additional funds through collaborations, strategic alliances, or marketing, distribution or licensing arrangements with third parties, we may have to relinquish valuable rights to our technologies, future revenue streams, products or product candidates or grant licenses on terms that may not be favorable to us. If we are unable to raise additional funds through equity or debt financings when needed, we may need to curtail or cease our operations. 
+
+&#160; 
+
+##TABLE_START 61 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+We currently have no source of revenues. We may never generate revenues or achieve profitability. 
+
+&#160; 
+
+Currently, we do not generate any revenues from product sales or otherwise. Even if we are able to successfully achieve regulatory approval for our product candidates, we do not know when we will generate revenues or become profitable, if at all. Our ability to generate revenues from product sales and achieve profitability will depend on our ability to successfully commercialize products, including our current product candidates and other product candidates that we may develop, in-license or acquire in the future. Our ability to generate revenues and achieve profitability also depends on a number of additional factors, including our ability to: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; successfully complete development activities, including the necessary clinical trials; &#160; &#160; &#160; &#160; &#9679; complete and submit either BLAs or NDAs to the FDA and obtain U.S. regulatory approval for indications for which there is a commercial market; &#160; &#160; &#160; &#160; &#9679; complete and submit applications to foreign regulatory authorities; &#160; &#160; &#160; &#160; &#9679; obtain regulatory approval in territories with viable market sizes; &#160; &#160; &#160; &#160; &#9679; obtain coverage and adequate reimbursement from third parties, including government and private payors; &#160; &#160; &#160; &#160; &#9679; set commercially viable prices for our products, if any; &#160; &#160; &#160; &#160; &#9679; establish and maintain supply and manufacturing relationships with reliable third parties, legally globally compliant manufacturing of bulk drug substances and drug products to maintain that supply; &#160; &#160; &#160; &#160; &#9679; develop distribution processes for our product candidates; &#160; &#160; &#160; &#160; &#9679; develop commercial quantities of our product candidates, if approved, at acceptable cost levels; &#160; &#160; &#160; &#160; &#9679; obtain additional funding if required to develop and commercialize our product candidates; &#160; &#160; &#160; &#160; &#9679; develop sales, marketing and distribution capabilities for products we intend to sell; &#160; &#160; &#160; &#160; &#9679; achieve market acceptance of our products; &#160; &#160; &#160; &#160; &#9679; attract, hire and retain qualified personnel; and &#160; &#160; &#160; &#160; &#9679; protect our intellectual property rights. ##TABLE_END &#160; 
+
+Our revenues for any product candidates for which regulatory approval is obtained will be dependent, in part, upon the size of the markets in the territories for which it gains regulatory approval, the accepted price for the products, the ability to get reimbursement at any price, and whether we own the commercial rights for that territory. If the number of our addressable disease patients is not as significant as our estimates, the indication approved by regulatory authorities is narrower than we expect, or the reasonably accepted population for treatment is narrowed by competition, physician choice or treatment guidelines, we may not generate significant revenues from sales of such products, even if approved. In addition, we anticipate incurring significant costs associated with commercializing any approved product candidates. As a result, even if we generate revenues, we may not become profitable and may need to obtain additional funding to continue operations. If we fail to become profitable or are unable to sustain profitability on a continuing basis, then we may be unable to continue our operations at planned levels and may be forced to reduce our operations. 
+
+&#160; 
+
+Our ability to use net operating losses to offset future taxable income may be subject to limitations. 
+
+&#160; 
+
+As of December 31, 2022, we had federal net operating loss (&#8220;NOLs&#8221;) carryforwards of approximately $5,800,000. Our NOLs generated in tax years ending on or prior to December 31, 2017 are only permitted to be carried forward for 20 years under applicable U.S. tax laws, and will begin to expire, if not utilized, beginning in 2027. These NOL carryforwards could expire unused and be unavailable to offset future income tax liabilities. Under the Tax Act, federal NOLs incurred in tax years ending after December 31, 2017 may be carried forward indefinitely, but the deductibility of such federal NOLs is limited. It is uncertain if and to what extent various states will conform to the Tax Act, or whether any further regulatory changes may be adopted in the future that could minimize its applicability. In addition, under Section 382 of the Internal Revenue Code of 1986, as amended, and certain corresponding provisions of state law, if a corporation undergoes an &#8220;ownership change,&#8221; which is generally defined as a greater than 50% change, by value, in the ownership of its equity over a three-year period, the corporation&#8217;s ability to use its pre-change NOL carryforwards and other pre-change tax attributes to offset its post-change income may be limited.
+
+&#160; 
+
+##TABLE_START 62 ##TABLE_END
+
+&#160;
+
+&#160;
+
+Risks Relating to the Development and Regulatory Approval of Our Product Candidates 
+
+&#160; 
+
+We have a limited number of product candidates, all which are still in early clinical or pre-clinical development. If we do not obtain regulatory approval of one or more of our product candidates, or experience significant delays in doing so, our business will be materially adversely affected. 
+
+&#160; 
+
+We currently have no products approved for sale or marketing in any country, and may never be able to obtain regulatory approval for any of our product candidates. As a result, we are not currently permitted to market any of our product candidates in the United States or in any other country until we obtain regulatory approval from the FDA or regulatory authorities outside the United States. Our product candidates are in early stages of development and we have not submitted an application, or received marketing approval, for any of our product candidates. Obtaining regulatory approval of our product candidates will depend on many factors, including, but not limited to, the following: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; successfully completing formulation and process development activities; &#160; &#160; &#160; &#160; &#9679; completing clinical trials that demonstrate the efficacy and safety of our product candidates; &#160; &#160; &#160; &#160; &#9679; receiving marketing approval from applicable regulatory authorities; &#160; &#160; &#160; &#160; &#9679; establishing commercial manufacturing capabilities; and &#160; &#160; &#160; &#160; &#9679; launching commercial sales, marketing and distribution operations. ##TABLE_END &#160; 
+
+Many of these factors are wholly or partially beyond our control, including clinical advancement, the regulatory submission process and changes in the competitive landscape. If we do not achieve one or more of these targets in a timely manner, we could experience significant delays or may be unable to develop our product candidates at all, which may have a material adverse effect on our business and results of operations. 
+
+&#160; 
+
+Clinical trials are expensive, time consuming, difficult to design and implement, and involve uncertain outcomes. Results of previous pre-clinical studies and clinical trials may not be predictive of future results, and the results of our current and planned clinical trials may not satisfy the requirements of the FDA or other regulatory authorities. 
+
+&#160; 
+
+Positive or timely results from pre-clinical or early-stage trials do not ensure positive or timely results in late-stage clinical trials or product approval by the FDA or comparable foreign regulatory authorities. We will be required to demonstrate with substantial evidence through well-controlled clinical trials that our product candidates are safe and effective for use in a diverse population before we can seek regulatory approvals for their commercialization. Our planned clinical trials may produce negative or inconclusive results, and we or any of our current and future strategic partners may decide, or regulators may require us, to conduct additional clinical or pre-clinical testing. 
+
+&#160; 
+
+Success in pre-clinical studies or early-stage clinical trials does not mean that future clinical trials or registration clinical trials will be successful because product candidates in later-stage clinical trials may fail to demonstrate sufficient safety and efficacy to the satisfaction of the FDA and foreign regulatory authorities, despite having progressed through pre-clinical studies and initial clinical trials. Product candidates that have shown promising results in early clinical trials may still suffer significant setbacks in subsequent clinical trials or registration clinical trials. For example, a number of companies in the biopharmaceutical industry, including those with greater resources and experience than us, have suffered significant setbacks in advanced clinical trials, even after obtaining promising results in earlier clinical trials. Similarly, pre-clinical interim results of a clinical trial are not necessarily predictive of final results. 
+
+&#160; 
+
+##TABLE_START 63 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+If clinical trials for our product candidates are prolonged, delayed or stopped, we may be unable to obtain regulatory approval and commercialize our product candidates on a timely basis, or at all, which would require us to incur additional costs and delay our receipt of any product revenue. 
+
+&#160; 
+
+We may experience delays in our ongoing or future pre-clinical studies or clinical trials, and we do not know whether future pre-clinical studies or clinical trials will begin on time, need to be redesigned, enroll an adequate number of patients or be completed on schedule, if at all. The commencement or completion of these planned clinical trials could be substantially delayed or prevented by many factors, including, but not limited to: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; discussions with the FDA or other regulatory agencies regarding the scope or design of our clinical trials; &#160; &#160; &#160; &#160; &#9679; the limited number of, and competition for, suitable sites to conduct our clinical trials, many of which may already be engaged in other clinical trial programs, including some that may be for the same indication as our product candidates; &#160; &#160; &#160; &#160; &#9679; any delay or failure to obtain approval or agreement to commence a clinical trial in any of the countries where enrollment is planned; &#160; &#160; &#160; &#160; &#9679; inability to obtain sufficient funds required for a clinical trial; &#160; &#160; &#160; &#160; &#9679; clinical holds on, or other regulatory objections to, a new or ongoing clinical trial; &#160; &#160; &#160; &#160; &#9679; delay or failure to manufacture sufficient supplies of product candidates for our clinical trials; &#160; &#160; &#160; &#160; &#9679; delay or failure to reach agreement on acceptable clinical trial agreement terms or clinical trial protocols with prospective sites or clinical research organizations (&#8220;CROs&#8221;), the terms of which can be subject to extensive negotiation and may vary significantly among different sites or CROs; &#160; &#160; &#160; &#160; &#9679; delay or failure to obtain IRB approval to conduct a clinical trial at a prospective site; &#160; &#160; &#160; &#160; &#9679; slower than expected rates of patient recruitment and enrollment; &#160; &#160; &#160; &#160; &#9679; failure of patients to complete the clinical trial; &#160; &#160; &#160; &#160; &#9679; the inability to enroll a sufficient number of patients in studies to ensure adequate statistical power to detect statistically significant treatment effects; &#160; &#160; &#160; &#160; &#9679; unforeseen safety issues, including severe or unexpected drug-related adverse effects experienced by patients, including possible deaths; &#160; &#160; &#160; &#160; &#9679; lack of efficacy during clinical trials; &#160; &#160; &#160; &#160; &#9679; termination of our clinical trials by one or more clinical trial sites; &#160; &#160; &#160; &#160; &#9679; inability or unwillingness of patients or clinical investigators to follow our clinical trial protocols; ##TABLE_END &#160; 
+
+##TABLE_START &#160; &#9679; inability to monitor patients adequately during or after treatment; &#160; &#160; &#160; &#160; &#9679; clinical study sites failing to comply with regulatory requirements or meet their contractual obligations to us in a timely manner, or at all, deviating from the protocol or dropping out of a study; &#160; &#160; &#160; &#160; &#9679; inability to address any non-compliance with regulatory requirements or safety concerns that arise during the course of a clinical trial; &#160; &#160; &#160; &#160; &#9679; the need to repeat or terminate clinical trials as a result of inconclusive or negative results or unforeseen complications in testing; and &#160; &#160; &#160; &#160; &#9679; our clinical trials may be suspended or terminated upon a breach or pursuant to the terms of any agreement with, or for any other reason by, current or future strategic partners that have responsibility for the clinical development of any of our product candidates. ##TABLE_END &#160; 
+
+##TABLE_START 64 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+Changes in regulatory requirements, policies and guidelines may also occur and we may need to significantly amend clinical trial protocols to reflect these changes with appropriate regulatory authorities. These changes may require us to renegotiate terms with CROs or resubmit clinical trial protocols to IRBs for re-examination, which may impact the costs, timing or successful completion of a clinical trial. Our clinical trials may be suspended or terminated at any time by the FDA, other regulatory authorities, the IRB overseeing the clinical trial at issue, any of our clinical trial sites with respect to that site, or us. Any failure or significant delay in commencing or completing clinical trials for our product candidates may adversely affect our ability to obtain regulatory approval and our commercial prospects and our ability to generate product revenue will be diminished. 
+
+&#160; 
+
+The design or our execution of clinical trials may not support regulatory approval. 
+
+&#160; 
+
+The design or execution of a clinical trial can determine whether its results will support regulatory approval and flaws in the design or execution of a clinical trial may not become apparent until the clinical trial is well advanced. In some instances, there can be significant variability in safety or efficacy results between different trials of the same product candidate due to numerous factors, including changes in trial protocols, differences in size and type of the patient populations, adherence to the dosing regimen and other trial protocols and the rate of dropout among clinical trial participants. We do not know whether any clinical trials we may conduct will demonstrate consistent or adequate efficacy and safety to obtain regulatory approval to market our product candidates. 
+
+&#160; 
+
+Further, the FDA and comparable foreign regulatory authorities have substantial discretion in the approval process and in determining when or whether regulatory approval will be obtained for any of our product candidates. Our product candidates may not be approved even if they achieve their primary endpoints in future clinical trials. The FDA or foreign regulatory authorities may disagree with our trial design and our interpretation of data from pre-clinical studies and clinical trials. In addition, any of these regulatory authorities may change requirements for the approval of a product candidate even after reviewing and providing comments or advice on a protocol for clinical trial that has the potential to result in FDA or other agencies&#8217; approval. In addition, such regulatory authorities may also approve a product candidate for fewer or more limited indications than we request or may grant approval contingent on the performance of costly post-marketing clinical trials. The FDA or foreign regulatory authorities may not approve the labeling claims that we believe would be necessary or desirable for the successful commercialization of our product candidates which may have a material adverse effect on our business. 
+
+&#160; 
+
+We may find it difficult to enroll patients in our clinical trials given the limited number of patients who have the diseases for which our product candidates are being studied which could delay or prevent the start of clinical trials for our product candidates. 
+
+&#160; 
+
+Identifying and qualifying patients to participate in clinical trials of our product candidate is essential to our success. The timing of our clinical trials depends in part on the rate at which we can recruit patients to participate in clinical trials of our product candidates, and we may experience delays in our clinical trials if we encounter difficulties in enrollment. If we experience delays in our clinical trials, the timeline for obtaining regulatory approval of our product candidates will most likely be delayed. 
+
+&#160; 
+
+Many factors may affect our ability to identify, enroll and maintain qualified patients, including the following: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; eligibility criteria of our ongoing and planned clinical trials with specific characteristics appropriate for inclusion in our clinical trials; &#160; &#160; &#160; &#160; &#9679; design of the clinical trial; &#160; &#160; &#160; &#160; &#9679; size and nature of the patient population; &#160; &#160; &#160; &#160; &#9679; patients&#8217; perceptions as to risks and benefits of the product candidate under study and the participation in a clinical trial generally in relation to other available therapies, including any new drugs that may be approved for the indications we are investigating; ##TABLE_END &#160; 
+
+##TABLE_START 65 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+##TABLE_START &#160; &#9679; the availability and efficacy of competing therapies and clinical trials; &#160; &#160; &#160; &#160; &#9679; pendency of other trials underway in the same patient population; &#160; &#160; &#160; &#160; &#9679; willingness of physicians to participate in our planned clinical trials; &#160; &#160; &#160; &#160; &#9679; severity of the disease under investigation; &#160; &#160; &#160; &#160; &#9679; proximity of patients to clinical sites; &#160; &#160; &#160; &#160; &#9679; patients who do not complete the trials for personal reasons; and &#160; &#160; &#160; &#160; &#9679; issues with CROs and/or with other vendors that handle our clinical trials. ##TABLE_END &#160; 
+
+We may not be able to initiate or continue to support clinical trials of our product candidates for one or more indications, or any future product candidates, if we are unable to locate and enroll a sufficient number of eligible participants in these trials as required by the FDA or other regulatory authorities. Even if we are able to enroll a sufficient number of patients in our clinical trials, if the pace of enrollment is slower than we expect, the development costs for our product candidates may increase and the completion of our trials may be delayed or our trials could become too expensive to complete. 
+
+&#160; 
+
+If we experience delays in the completion of, or termination of, any clinical trials of our product candidates, the commercial prospects of our product candidates could be harmed, and our ability to generate product revenue from any of our product candidates could be delayed or prevented. In addition, any delays in completing our clinical trials would likely increase our overall costs, impair product candidate development and jeopardize our ability to obtain regulatory approval relative to our current plans. Any of these occurrences may harm our business, financial condition, and prospects significantly. 
+
+&#160; 
+
+Our product candidates may have undesirable side effects that may delay or prevent marketing approval or, if approval is received, require them to be taken off the market, require them to include safety warnings or otherwise limit their sales; no regulatory agency has made any such determination that any of our product candidates are safe or effective for use by the general public for any indication. 
+
+&#160; 
+
+All of our product candidates are still in pre-clinical or early clinical development. Additionally, all of our product candidates are required to undergo ongoing safety testing in humans as part of clinical trials. Consequently, not all adverse effects of drugs can be predicted or anticipated. Unforeseen side effects from any of our product candidates could arise either during clinical development or, if approved by regulatory authorities, after the approved product has been marketed. Therefore, the results from clinical trials may not demonstrate a favorable safety profile in humans. The results of future clinical trials may show that our product candidates cause undesirable or unacceptable side effects, which could interrupt, delay or halt clinical trials, and result in delay of, or failure to obtain, marketing approval from the FDA or foreign regulatory authorities, or result in marketing approval from the FDA or foreign regulatory authorities with restrictive label warnings, limited patient populations or potential product liability claims. Even if we believe that our clinical trial and pre-clinical studies demonstrate the safety and efficacy of our product candidates, only the FDA and other comparable regulatory agencies may ultimately make such determination. No regulatory agency has made a determination that any of our product candidates are safe or effective for any indication. 
+
+&#160; 
+
+If any of our product candidates receive marketing approval and we or others later identify undesirable or unacceptable side effects caused by such products: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; regulatory authorities may require us to take our approved product off the market; &#160; &#160; &#160; &#160; &#9679; regulatory authorities may require the addition of labeling statements, specific warnings, and/or a contraindication or field alerts to physicians and pharmacies; ##TABLE_END &#160; 
+
+##TABLE_START 66 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; we may be required to change the way the product is administered, conduct additional clinical trials or change the labeling of the product; &#160; &#160; &#160; &#160; &#9679; we may be subject to limitations on how we may promote the product; &#160; &#160; &#160; &#160; &#9679; sales of the product may decrease significantly; &#160; &#160; &#160; &#160; &#9679; we may be subject to litigation or product liability claims; and &#160; &#160; &#160; &#160; &#9679; our reputation may suffer. ##TABLE_END &#160; 
+
+Any of these events could prevent us from achieving or maintaining market acceptance of the affected product or could substantially increase commercialization costs and expenses, which in turn could delay or prevent us from generating revenue from the sale of any future products. 
+
+&#160; 
+
+We are dependent on third parties for manufacturing and marketing of our product candidates. If we are not able to secure favorable arrangements with such third parties, our business and financial condition could be harmed. 
+
+&#160; 
+
+We will not manufacture any of our product candidates for commercial sale nor do we have the resources necessary to do so. In addition, we currently do not have the capability to market our drug products ourselves. In addition to our internal sales force efforts, we have contracted with and intend to continue to contract with specialized manufacturing companies to manufacture our product candidates. In connection with our efforts to commercialize our product candidates, we will seek to secure favorable arrangements with third parties to distribute, promote, market and sell our product candidates. If our internal sales force is unable to successfully distribute, market and promote our product candidates and we are not able to secure favorable commercial terms or arrangements with third parties for the distribution, marketing, promotion and sales of our product candidates, we may have to retain promotional and marketing rights and seek to develop the commercial resources necessary to promote or co-promote or co-market certain or all of our drug candidates to the appropriate channels of distribution in order to reach the specific medical market that we are targeting. We may not be able to enter into any partnering arrangements on this or any other basis. If we are not able to secure favorable partnering arrangements, or are unable to develop the appropriate resources necessary for the commercialization of our product candidates, our business and financial condition could be harmed. 
+
+&#160; 
+
+In addition, we, or our potential commercial partners, may not successfully introduce our product candidates or such candidates may not achieve acceptance by patients, health care providers and insurance companies. Further, it is possible that we may not be able to secure arrangements to manufacture, market, distribute, promote and sell our proposed product candidates at favorable commercial terms that would permit us to make a profit. To the extent that corporate partners conduct clinical trials, we may not be able to control the design and conduct of these clinical trials. 
+
+&#160; 
+
+If a third-party contract manufacturing organization (&#8220;CMO&#8221;) upon whom we rely to formulate and manufacture our product candidates does not perform, fails to manufacture according to our specifications or fails to comply with strict regulations, our pre-clinical studies or clinical trials could be adversely affected and the development of our product candidates could be delayed or terminated or we could incur significant additional expenses. 
+
+&#160; 
+
+We do not own or operate any manufacturing facilities. We rely on and intend to continue to rely on CMOs to formulate and manufacture our pre-clinical and clinical materials. Our reliance on a CMO exposes us to a number of risks, any of which could delay or prevent the completion of our pre-clinical studies or clinical trials, or the regulatory approval or commercialization of our product candidates, result in higher costs, or deprive us of potential product revenues. Some of these risks include: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; our CMO failing to develop an acceptable formulation to support later-stage clinical trials for, or the commercialization of, our product candidates; ##TABLE_END &#160; 
+
+##TABLE_START 67 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+##TABLE_START &#160; &#9679; our CMO failing to manufacture our product candidate according to our specifications, the FDA&#8217;s cGMP requirements, or otherwise manufacturing material that we, the FDA or other regulatory agencies may deem to be unsuitable in our clinical trials; &#160; &#160; &#160; &#160; &#9679; our CMO being unable to increase the scale of, increase the capacity for, or reformulate the form of our product candidates. We may experience a shortage in supply, or the cost to manufacture our products may increase to the point where it may adversely affect the cost of our product candidates. We cannot assure you that our CMO will be able to manufacture our product candidates at a suitable scale, or we will be able to find alternative manufacturers acceptable to us that can do so; &#160; &#160; &#160; &#160; &#9679; our CMO placing a priority on the manufacture of their own products, or other customers&#8217; products; &#160; &#160; &#160; &#160; &#9679; our CMO failing to perform as agreed upon or not remain in business; and &#160; &#160; &#160; &#160; &#9679; our CMO&#8217;s plants being closed as a result of regulatory sanctions, natural disasters, health epidemics or otherwise. ##TABLE_END &#160; 
+
+Manufacturers of pharmaceutical products are subject to ongoing periodic inspections by the FDA, the U.S. Drug Enforcement Administration and corresponding state and foreign agencies to ensure strict compliance with FDA mandated cGMP, other government regulations and corresponding foreign standards. While we are obligated to audit their performance, we do not have control over our CMO&#8217;s compliance with these regulations and standards. Failure by any of our CMOs, or us, to comply with applicable regulations could result in sanctions being imposed on us or the CMOs. These sanctions may include fines, injunctions, civil penalties, failure of the government to grant pre-market approval of drugs, delays, suspension or withdrawal of approvals, seizures or recalls of product, operating restrictions and criminal prosecutions, any of which could significantly and adversely affect our business. 
+
+&#160; 
+
+In the event that we need to change our CMOs, our pre-clinical studies, clinical trials or the commercialization of our product candidates could be delayed, adversely affected or terminated, or such a change may result in significantly higher costs. 
+
+&#160; 
+
+Various steps in the manufacture of our product candidates may need to be sole-sourced. In accordance with cGMP, changing manufacturers may require the re-validation of manufacturing processes and procedures, and may require further pre-clinical studies or clinical trials to show comparability between the materials produced by different manufacturers. Changing our current or future CMOs may be difficult for us and could be costly, which could result in our inability to manufacture our product candidates for an extended period of time and therefore a delay in the development of our product candidates. Further, in order to maintain our development time lines in the event of a change in our CMOs, we may incur significantly higher costs to manufacture our product candidates. 
+
+&#160; 
+
+We may have conflicts with our future partners that could delay or prevent the development or commercialization of our product candidates. 
+
+&#160; 
+
+We may have conflicts with our future partners, such as conflicts concerning the interpretation of pre-clinical or clinical data, the achievement of milestones, the interpretation of contractual obligations, payments for services, development obligations or the ownership of intellectual property developed during our collaboration. If any conflicts arise with any of our partners, such partner may act in a manner that is adverse to our best interests. Any such disagreement could result in one or more of the following, each of which could delay or prevent the development or commercialization of our product candidates, and in turn prevent us from generating revenues: unwillingness on the part of a partner to pay us milestone payments or royalties we believe are due to us under a collaboration; uncertainty regarding ownership of intellectual property rights arising from our collaborative activities, which could prevent us from entering into additional collaborations; unwillingness by the partner to cooperate in the development or manufacture of the product, including providing us with product data or materials; unwillingness on the part of a partner to keep us informed regarding the progress of its development and commercialization activities or to permit public disclosure of the results of those activities; initiating of litigation or alternative dispute resolution options by either party to resolve the dispute; or attempts by either party to terminate the agreement. 
+
+&#160; 
+
+##TABLE_START 68 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+We may not be able to conduct, or contract others to conduct, animal testing in the future, which could harm our research and development activities. 
+
+&#160; 
+
+Certain laws and regulations relating to drug development require us to test our drug candidates on animals before initiating clinical trials involving humans. Animal testing activities have been the subject of controversy and adverse publicity. Animal rights groups and other organizations and individuals have attempted to stop animal testing activities by pressing for legislation and regulation in these areas and by disrupting these activities through protests and other means. To the extent the activities of these groups are successful, our research and development activities may be interrupted or delayed. 
+
+&#160; 
+
+If any of our product candidates receive regulatory approval, the approved products may not achieve broad market acceptance among physicians, patients, the medical community and third-party payors, in which case revenue generated from their sales would be limited. 
+
+&#160; 
+
+The commercial success of our product candidates will depend upon their acceptance among physicians, patients and the medical community. The degree of market acceptance of our product candidates will depend on a number of factors, including: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; limitations or warnings contained in the approved labeling for a product candidate; &#160; &#160; &#160; &#160; &#9679; changes in the standard of care for the targeted indications for any of our product candidates; &#160; &#160; &#160; &#160; &#9679; limitations in the approved clinical indications for our product candidates; &#160; &#160; &#160; &#160; &#9679; demonstrated clinical safety and efficacy compared to other products; &#160; &#160; &#160; &#160; &#9679; lack of significant adverse side effects; &#160; &#160; &#160; &#160; &#9679; sales, marketing and distribution support; &#160; &#160; &#160; &#160; &#9679; availability of coverage and reimbursement amounts from managed care plans and other third-party payors; &#160; &#160; &#160; &#160; &#9679; timing of market introduction and perceived effectiveness of competitive products; &#160; &#160; &#160; &#160; &#9679; the cost-effectiveness of our product candidates; &#160; &#160; &#160; &#160; &#9679; availability of alternative products at similar or lower cost, including generic and over-the-counter products; &#160; &#160; &#160; &#160; &#9679; the extent to which the product candidate is approved for inclusion on formularies of hospitals and managed care organizations; &#160; &#160; &#160; &#160; &#9679; whether the product is designated under physician treatment guidelines as a first-line therapy or as a second- or third-line therapy for particular diseases; &#160; &#160; &#160; &#160; &#9679; whether the product can be used effectively with other therapies to achieve higher response rates; &#160; &#160; &#160; &#160; &#9679; adverse publicity about our product candidates or favorable publicity about competitive products; &#160; &#160; &#160; &#160; &#9679; convenience and ease of administration of our products; and &#160; &#160; &#160; &#160; &#9679; potential product liability claims. ##TABLE_END &#160; 
+
+If any of our product candidates are approved, but do not achieve an adequate level of acceptance by physicians, patients and the medical community, we may not generate sufficient revenue from these products, and we may not become or remain profitable. In addition, efforts to educate the medical community and third-party payors on the benefits of our product candidates may require significant resources and may never be successful. 
+
+&#160; 
+
+##TABLE_START 69 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+Even if we receive regulatory approval to commercialize any of the product candidates that we develop, we will be subject to ongoing regulatory obligations and continued regulatory review, which may result in significant additional expense. 
+
+&#160; 
+
+Any regulatory approvals that we receive for our product candidates may be subject to limitations on the approved indicated uses for which the product may be marketed or subject to certain conditions of approval, and may contain requirements for potentially costly post-approval trials, including Phase 4 clinical trials, and surveillance to monitor the safety and efficacy of the marketed product. 
+
+&#160; 
+
+For any approved product, we will be subject to ongoing regulatory obligations and extensive oversight by regulatory authorities, including with respect to manufacturing processes, labeling, packaging, distribution, adverse event reporting, storage, advertising, promotion and recordkeeping for the product. These requirements include submissions of safety and other post-approval information and reports, as well as continued compliance with cGMP and cGCP for any clinical trials that we conduct post- approval. Later discovery of previously unknown problems with a product, including adverse events of unanticipated severity or frequency, or with third-party manufacturers or manufacturing processes, or failure to comply with regulatory requirements, may result in, among other things: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; restrictions on the marketing or manufacturing of the product; &#160; &#160; &#160; &#160; &#9679; withdrawal of the product from the market or voluntary or mandatory product recalls; &#160; &#160; &#160; &#160; &#9679; fines, warning letters or holds on clinical trials; &#160; &#160; &#160; &#160; &#9679; refusal by the FDA, European Medicines Agency (&#8220;EMA&#8221;) or another competent regulatory authority to approve pending applications or supplements to approved applications filed by us, or suspension or revocation of product license approvals; &#160; &#160; &#160; &#160; &#9679; product seizure or detention, or refusal to permit the import or export of products; and &#160; &#160; &#160; &#160; &#9679; injunctions or the imposition of civil or criminal penalties. ##TABLE_END &#160; 
+
+Occurrence of any of the foregoing could have a material and adverse effect on our business and results of operations. Further, the FDA&#8217;s or other regulatory authority&#8217;s policies may change and additional government regulations may be enacted that could prevent, limit or delay regulatory approval of our product candidates. If we are slow or unable to adapt to changes in existing requirements or the adoption of new requirements or policies, or if we are not able to maintain regulatory compliance, we may lose any marketing approval that we may have obtained, which could adversely affect our business, prospects and ability to achieve or sustain profitability. 
+
+&#160; 
+
+If any product liability lawsuits are successfully brought against us, we may incur substantial liabilities and may be required to limit commercialization of our product candidates. 
+
+&#160; 
+
+We face an inherent risk of product liability lawsuits related to the testing of our product candidates in seriously ill patients, and will face an even greater risk if product candidates are approved by regulatory authorities and commercialized. Product liability claims may be brought against us by participants enrolled in our clinical trials, patients, health care providers or others using, administering or selling any of our future approved products. If we cannot successfully defend ourselves against any such claims, we may incur substantial liabilities. Regardless of their merit or eventual outcome, liability claims may result in: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; decreased demand for any future approved products; &#160; &#160; &#160; &#160; &#9679; injury to our reputation; &#160; &#160; &#160; &#160; &#9679; withdrawal of clinical trial participants; &#160; &#160; &#160; &#160; &#9679; termination of clinical trial sites or entire trial programs; ##TABLE_END &#160; 
+
+##TABLE_START 70 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; increased regulatory scrutiny; &#160; &#160; &#160; &#160; &#9679; significant litigation costs; &#160; &#160; &#160; &#160; &#9679; substantial monetary awards to or costly settlement with patients or other claimants; &#160; &#160; &#160; &#160; &#9679; product recalls or a change in the indications for which products may be used; &#160; &#160; &#160; &#160; &#9679; loss of revenue; &#160; &#160; &#160; &#160; &#9679; diversion of management and scientific resources from our business operations; and &#160; &#160; &#160; &#160; &#9679; the inability to commercialize our product candidates. ##TABLE_END &#160; 
+
+If any of our product candidates are approved for commercial sale, we will be highly dependent upon consumer perceptions of us and the safety and quality of our products. We could be adversely affected if we are subject to negative publicity. We could also be adversely affected if any of our products or any similar products distributed by other companies prove to be, or are asserted to be, harmful to patients. Because of our dependence upon consumer perceptions, any adverse publicity associated with illness or other adverse effects resulting from patients&#8217; use or misuse of our products or any similar products distributed by other companies could have a material adverse impact on our financial condition or results of operations. 
+
+&#160; 
+
+Insurance coverage is becoming increasingly expensive. As a result, we may be unable to maintain or obtain sufficient insurance at a reasonable cost to protect us against losses that could have a material adverse effect on our business. A successful product liability claim or series of claims brought against us, particularly if judgments exceed any insurance coverage we may have, could decrease our cash resources and adversely affect our business, financial condition and results of operation. 
+
+&#160; 
+
+Current and future legislation may increase the difficulty and cost for us to obtain marketing approval of and commercialize our product candidates and affect the prices we may obtain for such product candidates. 
+
+&#160; 
+
+In the United States and some foreign jurisdictions, there have been a number of legislative and regulatory changes and proposed changes regarding the healthcare system that could prevent or delay marketing approval for our product candidates, restrict or regulate post-approval activities and affect our ability to profitably sell our product candidates. Legislative and regulatory proposals have been made to expand post-approval requirements and restrict sales and promotional activities for pharmaceutical products. We do not know whether additional legislative changes will be enacted, or whether the FDA regulations, guidance or interpretations will be changed, or what the impact of such changes on the marketing approvals of our product candidates, if any, may be. In addition, increased scrutiny by the U.S. Congress of the FDA&#8217;s approval process may significantly delay or prevent marketing approval, as well as subject us to more stringent product labeling and post-marketing testing and other requirements. 
+
+&#160; 
+
+In the United States, the Medicare Modernization Act (&#8220;MMA&#8221;) changed the way Medicare covers and pays for pharmaceutical products. The legislation expanded Medicare coverage for drug purchases by the elderly and introduced a new reimbursement methodology based on average sales prices for drugs. In addition, this legislation authorized Medicare Part D prescription drug plans to use formularies where they can limit the number of drugs that will be covered in any therapeutic class. As a result of this legislation and the expansion of federal coverage of drug products, we expect that there will be additional pressure to contain and reduce costs. These cost reduction initiatives and other provisions of this legislation could decrease the coverage and price that we receive for our product candidates and could seriously harm our business. While the MMA applies only to drug benefits for Medicare beneficiaries, private payors often follow Medicare coverage policy and payment limitations in setting their own reimbursement rates, and any reduction in reimbursement that results from the MMA may result in a similar reduction in payments from private payors. 
+
+&#160; 
+
+##TABLE_START 71 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+The Patient Protection and Affordable Care Act, as amended by the Health Care and Education Affordability Reconciliation Act of 2010 (collectively, the &#8220;Health Care Reform Law&#8221;) is a sweeping law intended to broaden access to health insurance, reduce or constrain the growth of healthcare spending, enhance remedies against fraud and abuse, add new transparency requirements for healthcare and health insurance industries, impose new taxes and fees on the health industry and impose additional health policy reforms. The Health Care Reform Law revised the definition of &#8220;average manufacturer price&#8221; for reporting purposes, which could increase the amount of Medicaid drug rebates to states. Further, the law imposed a significant annual fee on companies that manufacture or import branded prescription drug products. 
+
+&#160; 
+
+The Health Care Reform Law remains subject to legislative efforts to repeal, modify or delay the implementation of the law. However, if the Health Care Reform Law is repealed or modified, or if implementation of certain aspects of the Health Care Reform Law are delayed, such repeal, modification or delay may materially adversely impact our business, strategies, prospects, operating results or financial condition. We are unable to predict the full impact of any repeal, modification or delay in the implementation of the Health Care Reform Law on us at this time. Due to the substantial regulatory changes that will need to be implemented by the Centers for Medicare &#38; Medicaid Services and others, and the numerous processes required to implement these reforms, we cannot predict which healthcare initiatives will be implemented at the federal or state level, the timing of any such reforms, or the effect such reforms or any other future legislation or regulation will have on our business. 
+
+&#160; 
+
+In addition, other legislative changes have been proposed and adopted in the United States since the Health Care Reform Law was enacted. We expect that additional federal healthcare reform measures will be adopted in the future, any of which could limit the amounts that federal and state governments will pay for healthcare products and services, and in turn could significantly reduce the projected value of certain development projects and reduce or eliminate our profitability. 
+
+&#160; 
+
+If we fail to comply with healthcare regulations, we could face substantial enforcement actions, including civil and criminal penalties and our business, operations and financial condition could be adversely affected. 
+
+&#160; 
+
+As a company involved in the healthcare industry, our business activities are subject to substantial governmental regulation. There are significant costs involved in complying with these laws and regulations. If we are found to have violated any applicable laws or regulations, we could be subject to civil or criminal damages, fines, sanctions or penalties, including exclusion from participation in government healthcare programs, such as Medicare, and we may be required to change our method of operations and business strategy. A federal, state, local or foreign government could determine that we are not operating in accordance with the law, or whether, when or how the laws, or the interpretation thereof, will change in the future and impact our business, financial condition, cash flows and results of operations. Any of these possibilities, if they occur, could adversely affect us. 
+
+&#160; 
+
+The laws to which we will be subject and which could impact our business activities include the following. 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; federal and state healthcare program anti-kickback laws (including the federal Anti-Kickback Statute and Civil Monetary Penalties Law) prohibit among other things, persons from soliciting, receiving or providing remuneration, directly or indirectly, to induce either the referral of an individual, for an item or service or the purchasing or ordering of a good or service, for which payment may be made under federal healthcare programs such as the Medicare and Medicaid programs. Such anti-kickback laws can be implicated by, among other activities, marketing arrangements with ordering providers, discount or rebate programs or other inducements to purchase our products. Violation of these laws can result in criminal prosecution and imposition of criminal penalties and fines, as well civil monetary penalties and multiple damage judgments, and exclusion from participation in federal healthcare programs; &#160; &#160; &#160; &#160; &#9679; the Omnibus Budget Reconciliation Act of 1993 (42 U.S.C. &#167; 1395nn) prohibit referrals by ordering by a physician of &#8220;designated health services&#8221; which include pharmaceuticals and drugs that are payable, in whole or in part, by Medicare or Medicaid, to an entity in which the physician or the physician&#8217;s immediate family member has an investment interest or other financial relationship, subject to several exceptions. Financial relationships that are implicated by the Stark Law can include arrangements ranging from marketing arrangements and consulting agreements to medical director agreements with physicians who order our products. The Stark Law also prohibits billing for services rendered pursuant to a prohibited referral. Several states have enacted laws similar to the Stark Law. These state laws may cover all (not just Medicare and Medicaid) patients. If we violate the Stark Law, our financial results and operations could be adversely affected. Penalties for violations include denial of payment for the services, significant civil monetary penalties, and exclusion from the Medicare and Medicaid programs; ##TABLE_END &#160; 
+
+##TABLE_START 72 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+##TABLE_START &#160; &#9679; federal false claims laws which prohibit, among other things, individuals or entities from knowingly presenting, or causing to be presented, claims for payment from Medicare, Medicaid, or other third-party payers that are false or fraudulent, and which may apply to entities like us which provide coding and billing information to customers; &#160; &#160; &#160; &#160; &#9679; HIPAA which imposes certain requirements relating to the privacy, security and transmission of protected health information which includes individually identifiable health information, demographic data, medical histories and test results; &#160; &#160; &#160; &#160; &#9679; the Federal Food, Drug and Cosmetic Act which among other things, strictly regulates drug manufacturing and product marketing, prohibits manufacturers from marketing drug products for off-label use and regulates the distribution of drug samples; and &#160; &#160; &#160; &#160; &#9679; The Physician Payments Sunshine Act which requires manufacturers of drugs, devices, biologics, and medical supplies for which payment is available under Medicare, Medicaid or the Children&#8217;s Health Insurance Program (with certain exceptions) to report annually to the CMS, information related to payments and other transfers of value to physicians (defined to include doctors, dentists, optometrists, podiatrists, and chiropractors), certain other healthcare professionals (such as physician assistants and nurse practitioners), and teaching hospitals, and ownership and investment interests held by physicians and their immediate family members and applicable group purchasing organizations; &#160; &#160; &#160; &#160; &#9679; state law equivalents of each of the above federal laws, such as, Stark Law, anti-kickback and false claims laws which may apply to items or services reimbursed by any third-party payer, including commercial insurers, state laws that require pharmaceutical companies to comply with the pharmaceutical industry&#8217;s voluntary compliance guidelines and the relevant compliance guidance promulgated by the federal government, state laws that require drug manufacturers to report information related to payments and other transfers of value to physicians and other healthcare providers, marketing expenditures, or drug pricing, state and local laws that require the registration of pharmaceutical sales representatives, and state laws governing the privacy and security of health information in certain circumstances, many of which differ from each other in significant ways and often are not preempted by federal laws, thus complicating compliance efforts. ##TABLE_END &#160; 
+
+If our operations are found to be in violation of any of the laws described above or any governmental regulations that apply to us, we may be subject to penalties, including civil and criminal penalties, damages, fines and the curtailment or restructuring of our operations. Any penalties, damages, fines, curtailment or restructuring of our operations could adversely affect our ability to operate our business and our financial results. Although compliance programs can mitigate the risk of investigation and prosecution for violations of these laws, the risks cannot be entirely eliminated. Any action against us for violation of these laws, even if we successfully defend against it, could cause us to incur significant legal expenses and divert management&#8217;s attention from the operation of our business. Moreover, achieving and sustaining compliance with applicable federal and state privacy, security and fraud laws may prove costly. 
+
+&#160; 
+
+If we are unable to effectively adapt to changes in the healthcare industry, our business may be harmed. 
+
+&#160; 
+
+Federal, state and local legislative bodies frequently pass legislation and promulgate regulations relating to healthcare reform or that affect the healthcare industry. As has been the trend in recent years, it is reasonable to assume that there will continue to be increased government oversight and regulation of the healthcare industry in the future. We cannot predict the ultimate content, timing or effect of any new healthcare legislation or regulations, nor is it possible at this time to estimate the impact of potential new legislation or regulations on our business. It is possible that future legislation enacted by Congress or state legislatures, or regulations promulgated by regulatory authorities at the federal or state level, could adversely affect our business. It is also possible that the changes to federal healthcare program reimbursements to providers who purchase our products may serve as precedent to possible changes in other payors&#8217; reimbursement policies in a manner adverse to us. Similarly, changes in private payor reimbursements could lead to adverse changes in federal healthcare programs, which could have a material adverse effect on our business, financial condition, cash flows and results of operations. 
+
+&#160; 
+
+##TABLE_START 73 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+There can be no assurance that we will be able to successfully address changes in the current regulatory environment. Some of the healthcare laws and regulations applicable to us are subject to limited or evolving interpretations, and a review of our business or operations by a court, law enforcement or a regulatory authority might result in a determination that could have a material adverse effect on us. Furthermore, the healthcare laws and regulations applicable to us may be amended or interpreted in a manner that could have a material adverse effect on our business, financial condition, cash flows and results of operations. 
+
+&#160; 
+
+Risks Relating to our Business and Operations 
+
+&#160; 
+
+We may expend our limited resources to pursue a particular product candidate and fail to capitalize on product candidates that may be more profitable or for which there is a greater likelihood of success. 
+
+&#160; 
+
+Because we have limited financial and managerial resources, we intend to prioritize our efforts on specific research and development programs, including clinical development of NXC-201, IMX-110, IMX-111 and IMX-120 or other future product candidates. As a result, we may forgo or delay pursuit of other opportunities, including with potential future product candidates that later prove to have greater commercial potential. Our resource allocation decisions may cause us to fail to capitalize on viable commercial products or profitable market opportunities. Our spending on current and future research and development programs and product candidates for specific indications may not yield any commercially viable drug candidates. If we do not accurately evaluate the commercial potential or target market for a particular product candidate, we may relinquish valuable rights to that product candidate through partnership, licensing or other royalty arrangements in cases in which it would have been more advantageous for us to retain sole development and commercialization rights to such product candidate. 
+
+&#160; 
+
+If the market opportunities for our current and potential future product candidates are smaller than we believe they are, our ability to generate product revenue may be adversely affected and our business may suffer. 
+
+&#160; 
+
+Our understanding of the number of people who suffer from certain types of cancers, hematologic malignancies and inflammatory diseases as well as ulcerative colitis and Crohn&#8217;s disease that our product candidates may have the potential to treat is based on estimates. These estimates may prove to be incorrect, and new studies may demonstrate or suggest a lower estimated incidence or prevalence of such diseases. The number of patients in the United States or elsewhere may turn out to be lower than expected, may not be otherwise amenable to treatment with our current or potential future product candidates or patients may become increasingly difficult to identify and access, all of which would adversely affect our business prospects and financial condition. 
+
+&#160; 
+
+Our products will face significant competition, and if they are unable to compete successfully, our business will suffer. 
+
+&#160; 
+
+We compete in an industry that is characterized by: (i) rapid technological change, (ii) evolving industry standards, (iii) emerging competition, (iv) new product introductions and (v) an emphasis on proprietary and novel products and product candidates. Our competitors, some of which include larger pharmaceutical companies, biotechnology companies, and academic institutions, have and may develop products and technologies that will compete with our products and technologies. Specifically, we face competition from companies developing therapies for both oncology and inflammation some of which include Kymera Therapeutics Inc., Morphic Holding Inc., and RAPT Therapeutics Inc. In addition, we face competition from companies developing therapies for IBD (including UC and CD) some of which include Arena Pharmaceuticals Inc., Landos Biopharma Inc., and Seres Therapeutics Inc. Moreover, companies with approved therapies and that are developing therapies for soft tissue sarcoma include, but are not limited to, BioAtla Inc., Epizyme Inc., Nanobiotix SA, C4 Therapeutics, Inc., Adaptimmune Therapeutics plc, Eisai, Novartis, and Janssen/Johnson &#38; Johnson, and a company developing multi-kinase inhibitors is Mirati Therapeutics, Inc. We also face competition from companies developing CAR-Ts targeting multiple myeloma, some of which include Janssen/Johnson &#38; Johnson, Bristol Myers Squibb, and Arcellx, Inc. and companies developing therapies for AL amyloidosis some of which include Prothena Corp, Caelum Biosciences (Now Alexion/AstraZeneca), and Janssen/Johnson &#38; Johnson. We also compete with these organizations to recruit management, scientists and clinical development personnel, which could negatively affect our level of expertise and our ability to execute our business plan. We will also face competition in establishing clinical trial sites, enrolling subjects for clinical trials and in identifying new product candidates. 
+
+&#160; 
+
+##TABLE_START 74 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+We believe that a significant number of products are currently under development, and may become commercially available in the future, for the treatment of conditions for which we may attempt to develop product candidates. In addition, our products may need to compete with drugs physicians use off-label to treat the indications for which we seek approval. This may make it difficult for us to replace existing therapies with our products. 
+
+&#160; 
+
+Our commercial opportunity could be reduced or eliminated if our competitors develop and commercialize products that are safer, more effective, have fewer side effects, are more convenient, have a broader label, are marketed more effectively, are more widely reimbursed or are less expensive than any products that we may develop. Our competitors also may obtain marketing approval from the FDA or other comparable foreign regulatory authorities for their products more rapidly than we may obtain approval for ours, which could result in our competitors establishing a strong market position before we are able to enter the market. Even if the product candidates we develop achieve marketing approval, they may be priced at a significant premium over competitive products if any have been approved by then, resulting in reduced competitiveness. Technological advances or products developed by our competitors may render our technologies or product candidates obsolete, less competitive or not economical. 
+
+&#160; 
+
+Because several competing companies and institutions have greater financial resources than us, they may be able to: (i) provide broader services and product lines, (ii) make greater investments in research and development and (iii) carry on larger research and development initiatives. Our competitors also have greater development capabilities than we do and have substantially greater experience in undertaking pre-clinical and clinical testing of products, obtaining regulatory approvals, and manufacturing and marketing pharmaceutical products. They may also have greater name recognition and better access to customers than us. 
+
+&#160; 
+
+Security breaches, loss of data and other disruptions could compromise sensitive information related to our business or protected health information or prevent us from accessing critical information and expose us to liability, which could adversely affect our business and our reputation. 
+
+&#160; 
+
+In the ordinary course of our business, we may collect and store sensitive data, including legally protected health information, personally identifiable information, intellectual property and proprietary business information. We manage and maintain our applications and data by utilizing cloud-based data center systems. These applications and data may encompass a wide variety of business-critical information, including research and development information, commercial information and business and financial information. We face risks relative to protecting this critical information, including loss of access risk, inappropriate disclosure risk, inappropriate modification risk and the risk of being unable to adequately monitor our controls. 
+
+&#160; 
+
+Our information technology and infrastructure may be vulnerable to attacks by hackers or viruses or breached due to employee error, malfeasance or other disruptions. Any such breach or interruption could compromise our networks and the information stored there could be accessed by unauthorized parties, publicly disclosed, lost or stolen. Any such access, disclosure or other loss of information could result in legal claims or proceedings, liability under laws that protect the privacy of personal information, such as the federal privacy rules for health information promulgated under HIPAA and regulatory penalties. There is no guarantee that we can continue to protect our systems from breach. Unauthorized access, loss or dissemination could also disrupt our operations, including our ability to conduct our analyses, provide test results, bill payors or providers, process claims and appeals, conduct research and development activities, collect, process and prepare company financial information, provide information about any future products, manage the administrative aspects of our business and damage our reputation, any of which could adversely affect our business. 
+
+&#160; 
+
+The U.S. Office of Civil Rights in the Department of Health and Human Services enforces the HIPAA privacy and security rules and may impose penalties for failure to comply with requirements of HIPAA. Penalties vary significantly depending on factors such as whether failure to comply was due to willful neglect. These penalties include civil monetary penalties of $100 to $50,000 per violation, up to an annual cap of $1,500,000 for identical violations. A person who knowingly obtains or discloses individually identifiable health information in violation of HIPAA may face a criminal penalty of up to $50,000 per violation and up to one-year imprisonment. The criminal penalties increase to $100,000 per violation and up to five-years imprisonment if the wrongful conduct involves false pretenses, and to $250,000 per violation and up to 10-years imprisonment if the wrongful conduct involves the intent to sell, transfer, or use identifiable health information for commercial advantage, personal gain, or malicious harm. The U.S. Department of Justice is responsible for criminal prosecutions under HIPAA. Furthermore, in the event of a breach as defined by HIPAA, there are reporting requirements to the Office of Civil Rights under the HIPAA regulations as well as to affected individuals, and there may also be additional reporting requirements to other state and federal regulators, including the Federal Trade Commission, and to the media. Issuing such notifications can be costly, time and resource intensive, and can generate significant negative publicity. Breaches of HIPAA may also constitute contractual violations that could lead to contractual damages or terminations. 
+
+&#160; 
+
+##TABLE_START 75 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+In addition, the interpretation and application of consumer, health-related and data protection laws in the United States, the European Union, or EU, and elsewhere are often uncertain, contradictory and in flux. It is possible that these laws may be interpreted and applied in a manner that is inconsistent with our practices. If so, this could result in government-imposed fines or orders requiring that we change our practices, which could adversely affect our business. In addition, these data protection laws vary between states, may differ from country to country, and may vary based on whether testing is performed in the United States or in another country. Complying with these various laws could cause us to incur substantial costs or require us to change our business practices and compliance procedures in a manner adverse to our business. For example, we may be subject to privacy laws and regulations such as the European Union&#8217;s General Data Protection Regulation (&#8220;GDPR&#8221;) and the California Consumer Privacy Act (&#8220;CCPA&#8221;). These laws mandate that companies satisfy requirements regarding the handling of personal and sensitive data, including its use, protection, and the ability of persons whose data is stored to correct or delete such data about themselves. Failure to comply with GDPR requirements could result in penalties of up to 4% of worldwide revenue. The GDPR, CCPA, and other similar laws and regulations, as well as any associated inquiries or investigations or any other government actions, may be costly to comply with, increase our operating costs, require significant management time and attention, and subject us to remedies that may harm our business, including fines, negative publicity, or demands or orders that we modify or cease existing business practices. 
+
+&#160; 
+
+Furthermore, the loss of clinical trial data from completed or future clinical trials could result in delays in our regulatory approval efforts and significantly increase our costs to recover or reproduce the data. Likewise, we rely on other third parties for the manufacture of our product candidates and to conduct clinical trials, and similar events relating to their computer systems could have a material adverse effect on our business. 
+
+&#160; 
+
+The outbreak of COVID-19, or a similar pandemic, epidemic or outbreak of an infectious disease in the United States or elsewhere, could have a material adverse impact on our business, financial condition and results of operations, including the execution of our pre-clinical studies and clinical trials and the use and sufficiency of our existing cash. 
+
+&#160; 
+
+The outbreak of COVID-19 evolved into a global pandemic and spread to many regions of the world. The extent to which COVID-19 impacts our business and operating results may continue to depend on future developments that are uncertain and cannot be accurately predicted, including new information that may emerge concerning COVID-19, including various variants, and the actions to contain the virus or treat its impact, among others. 
+
+&#160; 
+
+The spread of an infectious disease, such as COVID-19, may also result in the inability of our suppliers to deliver supplies to us on a timely basis. We currently utilize third parties to, among other things, manufacture components of our product candidates and, in the future, intend to utilize third parties to conduct our pre-clinical studies and clinical trials. If either we or any third-party parties in the supply chain for materials used in the production of our product candidates are adversely impacted by restrictions resulting from a health epidemic such as COVID-19, which, among other things, resulted in quarantines and restrictions on travel, our supply chain may be disrupted, limiting our ability to manufacture our product candidates for our pre-clinical studies and clinical trials. 
+
+&#160; 
+
+Infections and deaths related to a health epidemic may also disrupt the United States&#8217; healthcare and healthcare regulatory systems as well as other healthcare systems which could divert healthcare resources away from, or materially delay review and/or approval of our product candidates by the FDA and other regulatory agencies. Furthermore, a health epidemic may also slow potential enrollment of current and planned clinical trials, reduce the number of eligible patients for our current and planned clinical trials, create difficulties in recruiting clinical site investigators and staff, divert healthcare resources away from the conduct of clinical trials, delay receiving approval from local authorities to initiate our current and planned clinical trials, delay necessary interactions with local regulators, ethics committees and other important agencies and contractors due to limitations in employee resources or forced furlough of government employees, interrupt key clinical trial activities (like site monitoring) and create difficulties in data collection and analysis, among other things. 
+
+&#160; 
+
+##TABLE_START 76 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+The spread of COVID-19, which caused a broad impact globally may have a material economic effect on our business. While the potential economic impact brought by the pandemic may be difficult to assess or predict, it has already caused, and is likely to result in further, significant disruption of global financial markets which may reduce our ability to access capital either at all or on favorable terms. In addition, a recession, depression or other sustained adverse market event resulting from COVID-19 could materially and adversely affect our business and the value of our common stock. 
+
+&#160; 
+
+The ultimate impact of the current pandemic, or any other health epidemic, is highly uncertain and subject to change. We do not yet know the full extent of potential delays or impacts on our business, our pre-clinical studies and clinical trials, healthcare systems or the global economy as a whole. However, these effects could have a material impact on our operations. 
+
+&#160; 
+
+Any international operations we undertake may subject us to risks inherent with operations outside of the United States. 
+
+&#160; 
+
+We intend to obtain market clearance for our product candidates in foreign markets; however, even with the cooperation of a commercialization partner, conducting drug development in foreign countries involves inherent risks, including, but not limited to: difficulties in staffing, funding and managing foreign operations; unexpected changes in regulatory requirements; export restrictions; tariffs and other trade barriers; difficulties in protecting, acquiring, enforcing and litigating intellectual property rights; fluctuations in currency exchange rates; and potentially adverse tax consequences. If we were to experience any of the difficulties listed above, or any other difficulties, our international development activities and our overall financial condition may suffer and cause us to reduce or discontinue our international development and registration efforts. 
+
+&#160; 
+
+We may not be successful in hiring and retaining key employees, including executive officers. 
+
+&#160; 
+
+Our future operations and successes depend in large part upon the strength of our management team. We rely heavily on the continued service of each member of our management team. Accordingly, if any member of our management team were to terminate their employment with us, such departure may have a material adverse effect on our business. In addition, our future success depends on our ability to identify, attract, hire or engage, retain and motivate other well-qualified financial, managerial, technical, clinical and regulatory personnel. There can be no assurance that these professionals will be available in the market, or that we will be able to retain existing professionals or to meet or to continue to meet their compensation requirements. Furthermore, the cost base in relation to such compensation, which may include equity compensation, may increase significantly, which could have a material adverse effect on us. Failure to establish and maintain an effective management team and work force could adversely affect our ability to operate, grow and manage our business. 
+
+&#160; 
+
+Our employees, consultants, commercial partners and vendors may engage in misconduct or other improper activities, including non-compliance with regulatory standards and requirements. 
+
+&#160; 
+
+We are exposed to the risk of employee fraud or other illegal activity by our employees, consultants, commercial partners and vendors. Misconduct by these parties could include intentional, reckless and/or negligent conduct that fails to comply with FDA or other regulations, provide true, complete and accurate information to the FDA and other similar foreign regulatory bodies, comply with manufacturing standards we may establish, comply with healthcare fraud and abuse laws and regulations, report financial information or data accurately or disclose unauthorized activities to us. If we obtain approval of any of our product candidates from the FDA or any other foreign regulatory agency and begin commercializing those products in the United States or elsewhere, our potential exposure under these laws will increase significantly, and our costs associated with compliance with these laws are likely to increase. In particular, sales, marketing and business arrangements in the healthcare industry are subject to extensive laws and regulations intended to prevent fraud, kickbacks, self-dealing and other abusive practices. These laws and regulations may restrict or prohibit a wide range of pricing, discounting, marketing and promotion, sales commission, customer incentive programs and other business arrangements. Employee misconduct could also involve the improper use of information obtained in the course of clinical trials, which could result in regulatory sanctions and serious harm to our reputation. Additionally, we are subject to the risk that a person could allege such fraud or other misconduct, even if none occurred. It is not always possible to identify and deter employee misconduct, and the precautions we take to detect and prevent this activity may not be effective in controlling unknown or unmanaged risks or losses or in protecting us from governmental investigations or other actions or lawsuits stemming from a failure to comply with such laws or regulations. If any such actions are instituted against us, and we are not successful in defending ourselves or asserting our rights, those actions could have a material and adverse effect on our business, financial condition, results of operations and prospects, including the imposition of significant civil, criminal and administrative penalties, damages, fines, disgorgement, imprisonment, the curtailment or restructuring of our operations, loss of eligibility to obtain approvals from the FDA or other regulatory agencies, exclusion from participation in government contracting, healthcare reimbursement or other government programs, including Medicare and Medicaid, integrity oversight and reporting obligations, or reputational harm. 
+
+&#160; 
+
+Because Immix Biopharma and certain of its affiliates control a significant number of securities of Nexcella, it may have effective control over actions requiring Nexcella stockholder approval. 
+
+&#160;
+
+As of March 20, 2023, Immix Biopharma and certain of its affiliates (Ilya Rachman, our Chief Executive Officer and Chairman and Gabriel Morris, our Chief Financial Officer and director) collectively own 5,044,988 shares of Nexcella&#8217;s common stock, or 98.50% of Nexcella&#8217;s outstanding common stock, 1,000,000 shares of Nexcella&#8217;s Class A common stock, or 100% of Nexcella&#8217;s outstanding Class A common stock and 250,000 shares of Nexcella&#8217;s Class A preferred stock, or 100% of Nexcella&#8217;s outstanding Class A preferred stock. Therefore, Immix Biopharma would have the ability to control the outcome of matters submitted to Nexcella&#8217;s stockholders for approval.
+
+&#160; 
+
+##TABLE_START 77 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+Risks Relating to our Intellectual Property 
+
+&#160; 
+
+It is difficult and costly to protect our proprietary rights, and we may not be able to ensure their protection. If our patent position does not adequately protect our product candidates, others could compete against us, which may have a material adverse effect on our business. 
+
+&#160; 
+
+Our commercial success will depend in part on obtaining and maintaining patent protection and trade secret protection of our current and future product candidates, the processes used to manufacture them and the methods for using them, as well as successfully defending such patents against third-party challenges. Our ability to stop third parties from making, using, selling, offering to sell or importing our product candidates is dependent upon the extent to which we have rights under valid and enforceable patents or trade secrets that cover these activities. 
+
+&#160; 
+
+The patent positions of biotechnology and pharmaceutical companies can be highly uncertain and involve complex legal and factual questions for which important legal principles remain unresolved. No consistent policy regarding the breadth of claims allowed in pharmaceutical patents has emerged to date in the U.S. or in foreign jurisdictions outside of the U.S. Changes in either the patent laws or interpretations of patent laws in the U.S. and other countries may diminish the value of our intellectual property. Accordingly, we cannot predict the breadth of claims that may be enforced in the patents that may be issued from the applications we currently or may in the future own or license from third parties. Further, if any patents we obtain or license are deemed invalid and unenforceable, our ability to commercialize or license our products or technologies could be adversely affected. 
+
+&#160; 
+
+Others have filed, and in the future are likely to file, patent applications covering products and technologies that are similar, identical or competitive to ours or important to our business. We cannot be certain that any patent application owned by a third party will not have priority over patent applications filed or in-licensed by us, or that we or our future licensors will not be involved in interference, opposition, reexamination, review, reissue, post grant review or invalidity proceedings before U.S. or non-U.S. patent offices. 
+
+&#160; 
+
+The degree of future protection for our proprietary rights is uncertain because legal means afford only limited protection and may not adequately protect our rights or permit us to gain or keep our competitive advantage. For example: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; others may be able to make compounds that are similar to our product candidates, but that are not covered by the claims of our patents; &#160; &#160; &#160; &#160; &#9679; we might not have been the first to make the inventions covered by our pending patent applications; &#160; &#160; &#160; &#160; &#9679; we might not have been the first to file patent applications for these inventions; &#160; &#160; &#160; &#160; &#9679; our pending patent applications may not result in issued patents; &#160; &#160; &#160; &#160; &#9679; the claims of our issued patents or patent applications when issued may not cover our products or product candidates; &#160; &#160; &#160; &#160; &#9679; any patents that we may obtain from licensing or otherwise may not provide us with any competitive advantages; &#160; &#160; &#160; &#160; &#9679; any granted patents that we rely upon may be held invalid or unenforceable as a result of legal challenges by third parties; and &#160; &#160; &#160; &#160; &#9679; the patents of others may have an adverse effect on our business. ##TABLE_END &#160; 
+
+##TABLE_START 78 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+If we fail to comply with our obligations in the agreements under which we may license intellectual property rights from third parties or otherwise experience disruptions to our business relationships with our potential licensors, we could lose rights that are important to our business. 
+
+&#160; 
+
+We have and may, in the future, be required to enter into intellectual property license agreements that are important to our business. These license agreements may impose various diligence, milestone payment, royalty and other obligations on us. For example, we may enter into exclusive license agreements with various universities and research institutions, we may be required to use commercially reasonable efforts to engage in various development and commercialization activities with respect to licensed products, and may need to satisfy specified milestone and royalty payment obligations. If we fail to comply with any obligations under any potential agreements with any of these licensors, we may be subject to termination of the license agreement in whole or in part; increased financial obligations to our licensors or loss of exclusivity in a particular field or territory, in which case our ability to develop or commercialize products covered by the license agreement will be impaired. 
+
+&#160; 
+
+In addition, disputes may arise regarding intellectual property subject to a license agreement, including: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; the scope of rights granted under the license agreement and other interpretation-related issues; &#160; &#160; &#160; &#160; &#9679; the extent to which our technology and processes infringe on intellectual property of the licensor that is not subject to the licensing agreement; &#160; &#160; &#160; &#160; &#9679; our diligence obligations under the license agreement and what activities satisfy those obligations; &#160; &#160; &#160; &#160; &#9679; if a third-party expresses interest in an area under a license that we are not pursuing, under the terms of certain of our license agreements, we may be required to sublicense rights in that area to a third party, and that sublicense could harm our business; and &#160; &#160; &#160; &#160; &#9679; the ownership of inventions and know-how resulting from the joint creation or use of intellectual property by our licensors and us. ##TABLE_END &#160; 
+
+If disputes over intellectual property that we have licensed prevent or impair our ability to maintain our future licensing arrangements on acceptable terms, we may be unable to successfully develop and commercialize our product candidates. 
+
+&#160; 
+
+We may need to obtain licenses from third parties to advance our research or allow commercialization of our product candidates. We may fail to obtain any of these licenses at a reasonable cost or on reasonable terms, if at all. In that event, we would be unable to further develop and commercialize our product candidates, which could harm our business significantly. 
+
+&#160; 
+
+We may incur substantial costs as a result of litigation or other proceedings relating to patents and other intellectual property rights. 
+
+&#160; 
+
+If we choose to commence a proceeding or litigation to prevent another party from infringing our patents, that party will have the right to ask the examiner or court to rule that such patents are invalid or should not be enforced against them. There is a risk that the examiner or court will decide that our patents are not valid and that we do not have the right to stop the other party from using the related inventions. There is also the risk that, even if the validity of such patents is upheld, the examiner or court will refuse to stop the other party on the ground that such other party&#8217;s activities do not infringe our rights. In addition, the U.S. Supreme Court has recently modified some tests used by the U.S. Patent and Trademark Office (&#8220;USPTO&#8221;) in granting patents over the past 20 years, which may decrease the likelihood that we will be able to obtain patents and increase the likelihood of challenge to any patents we obtain or may, in the future, license. Any proceedings or litigation to enforce our intellectual property rights or defend ourselves against claims of infringement of third-party intellectual property rights could be costly and divert the attention of managerial and scientific personnel, regardless of whether such litigation is ultimately resolved in our favor. We may not have sufficient resources to bring these actions to a successful conclusion. Moreover, if we are unable to successfully defend against claims that we have infringed the intellectual property rights of others, we may be prevented from using certain intellectual property and may be liable for damages, which in turn could materially adversely affect our business, financial condition or results of operations. 
+
+&#160; 
+
+##TABLE_START 79 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+We may infringe the intellectual property rights of others, which may prevent or delay our product development efforts and stop us from commercializing or increase the costs of commercializing our product candidates. 
+
+&#160; 
+
+Our success will depend in part on our ability to operate without infringing the proprietary rights of third parties. We cannot guarantee that our product candidates, or manufacture or use of our product candidates, will not infringe third-party patents. Furthermore, a third party may claim that we are using inventions covered by the third party&#8217;s patent rights and may go to court to stop us from engaging in our normal operations and activities, including making or selling our product candidates. These lawsuits are costly and could affect our results of operations and divert the attention of managerial and scientific personnel. Some of these third parties may be better capitalized and have more resources than us. There is a risk that a court would decide that we are infringing the third party&#8217;s patents and would order us to stop the activities covered by the patents. In that event, we may not have a viable way around the patent and may need to halt commercialization of our product candidates. In addition, there is a risk that a court will order us to pay the other party damages for having violated the other party&#8217;s patents. The pharmaceutical and biotechnology industries have produced a proliferation of patents, and it is not always clear to industry participants, including us, which patents cover various types of products or methods of use. The coverage of patents is subject to interpretation by the courts, and the interpretation is not always uniform. 
+
+&#160; 
+
+If we are sued for patent infringement, we would need to demonstrate that our product candidates or methods either do not infringe the patent claims of the relevant patent or that the patent claims are invalid, and we may not be able to do this. Proving invalidity is difficult. For example, in the U.S., proving invalidity requires a showing of clear and convincing evidence to overcome the presumption of validity enjoyed by issued patents. Even if we are successful in these proceedings, we may incur substantial costs and divert management&#8217;s time and attention in pursuing these proceedings, which could have a material adverse effect on us. If we are unable to avoid infringing the patent rights of others, we may be required to seek a license, which may not be available, defend an infringement action or challenge the validity of the patents in court. Patent litigation is costly and time consuming. We may not have sufficient resources to bring these actions to a successful conclusion. In addition, if we do not obtain a license, develop or obtain non-infringing technology, fail to defend an infringement action successfully or have infringed patents declared invalid, we may incur substantial monetary damages, encounter significant delays in bringing our product candidates to market and be precluded from manufacturing or selling our product candidates. 
+
+&#160; 
+
+We cannot be certain that others have not filed patent applications for technology covered by our pending applications, or that we are the first to invent the technology, because: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; some patent applications in the U.S. may be maintained in secrecy until the patents are issued; &#160; &#160; &#160; &#160; &#9679; patent applications in the U.S. are typically not published until 18 months after the priority date; and &#160; &#160; &#160; &#160; &#9679; publications in the scientific literature often lag behind actual discoveries. ##TABLE_END &#160; 
+
+Our competitors may have filed, and may in the future file, patent applications covering products and technology similar to ours. Any such patent application may have priority over our patent applications, which could require us to obtain rights to issued patents covering such products or technologies. If another party has filed U.S. patent applications on inventions similar to us that claims priority to any applications filed prior to the priority dates of our applications, we may have to participate in an interference proceeding declared by the USPTO to determine priority of invention in the U.S. It is possible that such efforts would be unsuccessful if, unbeknownst to us, the other party had independently arrived at the same or similar inventions prior to our inventions, resulting in a loss of our U.S. patent position with respect to such inventions which could in turn have a material adverse effect on our operations. Other countries have similar laws that permit secrecy of patent applications, and may be entitled to priority over our applications in such jurisdictions. 
+
+&#160; 
+
+##TABLE_START 80 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+Some of our competitors may be able to sustain the costs of complex patent litigation more effectively than us because they have substantially greater resources. In addition, any uncertainties resulting from the initiation and continuation of any litigation could have a material adverse effect on our ability to raise the funds necessary to continue our operations. 
+
+&#160; 
+
+If we are not able to adequately prevent disclosure of trade secrets and other proprietary information, the value of our technology and products could be significantly diminished. 
+
+&#160; 
+
+We also rely on trade secrets to protect our proprietary products and technologies, especially where we do not believe patent protection is appropriate or obtainable. However, trade secrets are difficult to protect. We rely in part on confidentiality agreements with our employees, consultants and other advisors to protect our trade secrets and other proprietary information. These agreements may not effectively prevent disclosure of confidential information and may not provide an adequate remedy in the event of unauthorized disclosure of confidential information. In addition, others may independently discover our trade secrets and proprietary information. Costly and time-consuming litigation could be necessary to enforce and determine the scope of our proprietary rights, and failure to obtain or maintain trade secret protection could adversely affect our business. 
+
+&#160; 
+
+We may be subject to claims that our employees or consultants have wrongfully used or disclosed alleged trade secrets. 
+
+&#160; 
+
+As is common in the biotechnology and pharmaceutical industries, we employ individuals who were previously employed at other biotechnology or pharmaceutical companies, including our competitors or potential competitors. Although we try to ensure that our employees or consultants do not use the proprietary information or know-how of others in their work for us, we may be subject to claims that we or our employees or consultants have inadvertently or otherwise used or disclosed trade secrets or other proprietary information of their former employers. Litigation may be necessary to defend against these claims. If we fail in defending any such claims, in addition to paying monetary damages, we could lose valuable intellectual property rights or personnel, which could adversely impact our business. Even if we are successful in defending against these claims, litigation could result in substantial costs and be a distraction to management.
+
+&#160; 
+
+Our intellectual property may not be sufficient to protect our product candidates from competition, which may negatively affect our business. 
+
+&#160; 
+
+We may be subject to competition despite the existence of intellectual property we own or in the future may license. We can give no assurances that our intellectual property claims will be sufficient to prevent third parties from designing around patents we own or may in the future license and developing and commercializing competitive products. The existence of competitive products that avoid our intellectual property could materially adversely affect our operating results and financial condition. Furthermore, limitations, or perceived limitations, in our intellectual property may limit the interest of third parties to partner, collaborate or otherwise transact with us, if third parties perceive a higher than acceptable risk to commercialization of our product candidates. 
+
+&#160; 
+
+We may elect to sue a third party, or otherwise make a claim, alleging infringement or other violation of patents, trademarks, trade dress, copyrights, trade secrets, domain names or other intellectual property rights that we either own or license from a third party. If we do not prevail in enforcing our intellectual property rights in this type of litigation, we may be subject to: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; paying monetary damages related to the legal expenses of the third party; &#160; &#160; &#160; &#160; &#9679; facing additional competition that may have a significant adverse effect on our product pricing, market share, business operations, financial condition, and the commercial viability of our products; and &#160; &#160; &#160; &#160; &#9679; restructuring our Company or delaying or terminating select business opportunities, including, but not limited to, research and development, clinical trial, and commercialization activities, due to a potential deterioration of our financial condition or market competitiveness. ##TABLE_END &#160; 
+
+##TABLE_START 81 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+A third party may also challenge the validity, enforceability or scope of the intellectual property rights that we own or in the future may license; and, the result of these challenges may narrow the scope or claims of or invalidate patents that are integral to our product candidates. There can be no assurance that we will be able to successfully defend patents we own or may license in an action against third parties due to the unpredictability of litigation and the high costs associated with intellectual property litigation, amongst other factors. 
+
+&#160; 
+
+Intellectual property rights and enforcement may be less extensive in jurisdictions outside of the U.S.; thus, we may not be able to protect our intellectual property and third parties may be able to market competitive products that may use some or all of our intellectual property. 
+
+&#160; 
+
+Changes to patent law, including the Leahy-Smith America Invests Act, AIA or Leahy-Smith Act, of 2011 and the Patent Reform Act of 2009 and other future article of legislation, may substantially change the regulations and procedures surrounding patent applications, issuance of patents, and prosecution of patents. We can give no assurances that our patents can be defended or will protect us against future intellectual property challenges, particularly as they pertain to changes in patent law and future patent law interpretations. 
+
+&#160; 
+
+In addition, enforcing and maintaining our intellectual property protection depends on compliance with various procedural, document submission, fee payment and other requirements imposed by the USPTO, courts and foreign government patent agencies, and our patent protection could be reduced or eliminated for non-compliance with these requirements which may have a material adverse effect on our business. 
+
+&#160; 
+
+We conduct certain research and development operations through our Australian wholly-owned subsidiary. If we lose our ability to operate in Australia, or if our subsidiary is unable to receive the research and development tax credit allowed by Australian regulations, our business and results of operations could suffer. 
+
+&#160; 
+
+In August 2016, we formed a wholly-owned Australian subsidiary, Immix Biopharma Australia Pty Ltd to conduct various pre-clinical and clinical activities for our product and development candidates in Australia. We may not be able to efficiently or successfully monitor, develop and commercialize our lead products in Australia, including conducting clinical trials. Furthermore, we have no assurance that the results of any clinical trials that we conduct for our product candidates in Australia will be accepted by the FDA or foreign regulatory authorities for development and commercialization approvals.
+
+&#160; 
+
+In addition, current Australian tax regulations provide for a refundable research and development tax credit equal to 43.5% of qualified expenditures. If we lose our ability to operate IBAPL in Australia, or if we are ineligible or unable to receive the research and development tax credit, or the Australian government significantly reduces or eliminates the tax credit, our business and results of operation may be adversely affected. 
+
+&#160;
+
+Breakthrough Therapy Designation, Fast Track Designation or RPDD by the FDA, and equivalents granted by other regulatory authorities, even if granted for any of our product candidates developed for therapeutic indications, may not lead to a faster development, regulatory review or approval process, and it does not increase the likelihood that any of our product candidates will receive marketing approval in any jurisdiction. 
+
+&#160; 
+
+We may seek a Breakthrough Therapy Designation for some of our product candidates. A breakthrough therapy is defined as a therapy that is intended, alone or in combination with one or more other therapies, to treat a serious or life-threatening disease or condition, and preliminary clinical evidence indicates that the therapy may demonstrate substantial improvement over existing therapies on one or more clinically significant endpoints, such as substantial treatment effects observed early in clinical development. For therapies that have been designated as breakthrough therapies, interaction and communication between the FDA and the sponsor of the trial can help to identify the most efficient path for clinical development while minimizing the number of patients placed in ineffective control regimens. Therapies designated as breakthrough therapies by the FDA may also be eligible for priority review and accelerated approval. Designation as a breakthrough therapy is within the discretion of the FDA. Accordingly, even if we believe one of our product candidates meets the criteria for designation as a breakthrough therapy, the FDA may disagree and instead determine not to make such designation. In any event, the receipt of a Breakthrough Therapy Designation for a product candidate may not result in a faster development process, review or approval compared to therapies considered for approval under conventional FDA procedures and does not assure ultimate approval by the FDA. In addition, even if one or more of our product candidates qualify as breakthrough therapies, the FDA may later decide that such product candidates no longer meet the conditions for qualification or decide that the time period for FDA review or approval will not be shortened.
+
+&#160;
+
+We may seek Fast Track Designation for some of our product candidates for therapeutic indications. If a therapy is intended for the treatment of a serious or life-threatening condition and the therapy demonstrates the potential to address unmet medical needs for this condition, the therapy sponsor may apply for Fast Track Designation. Filling an unmet medical need is defined as providing a therapy where none exists or providing a therapy which may be potentially better than available therapy. The FDA has broad discretion whether or not to grant this designation, so even if we believe a particular product candidate is eligible for this designation, we cannot assure you that the FDA would decide to grant it. Even if we do receive Fast Track Designation, we may not experience a faster development process, review or approval compared to conventional FDA procedures. The FDA may withdraw Fast Track Designation if it believes that the designation is no longer supported by data from our clinical development program. Fast Track Designation alone does not guarantee qualification for the FDA&#8217;s priority review procedures.
+
+&#160; 
+
+We may seek a RPDD for some of our product candidates. However, even if we believe a particular product candidate is eligible for this designation, we cannot guarantee that FDA would agree. The FDA may award priority review vouchers to sponsors of products that meet the definition of a &#8220;rare pediatric disease.&#8221; A &#8220;rare pediatric disease&#8221; is a (a) serious or life-threatening disease in which the serious or life-threatening manifestations primarily affect individuals aged from birth to 18 years, including age groups often called neonates, infants, children, and adolescents; and (b) rare disease or conditions within the meaning of the Orphan Drug Act. However, this designation is at the discretion of the FDA and, even if we do receive a Rare Pediatric Disease Designation, we may not experience a faster development process, review or approval compared to conventional FDA procedures and are still not guaranteed final approval of our product candidate by the FDA. Additionally, the benefits of a RPDD may not be available for future product candidates. After September 30, 2024, the FDA may only award a voucher for an approved rare pediatric disease product application if the sponsor has a RPDD for the drug that was granted by September 30, 2024. After September 30, 2026, the FDA may not award any additional rare pediatric disease priority review vouchers.
+
+&#160; 
+
+Risks Related to Owning our Common Stock 
+
+&#160; 
+
+The price of our common stock may fluctuate substantially. 
+
+&#160; 
+
+You should consider an investment in our common stock to be risky, and you should invest in our common stock only if you can withstand a significant loss and wide fluctuations in the market value of your investment. Some factors that may cause the market price of our common stock to fluctuate, in addition to the other risks mentioned in this &#8220;Risk Factors&#8221; section and elsewhere in this Annual Report on Form 10-K, are: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; sales of our common stock by our stockholders, executives, and directors; &#160; &#160; &#160; &#160; &#9679; volatility and limitations in trading volumes of our shares of common stock; &#160; &#160; &#160; ##TABLE_END &#160; 
+
+##TABLE_START 82 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+##TABLE_START &#160; &#9679; our ability to obtain financing to conduct and complete research and development activities including, but not limited to, our clinical trials, and other business activities; &#160; &#160; &#160; &#160; &#9679; possible delays in the expected recognition of revenue due to lengthy and sometimes unpredictable sales timelines; &#160; &#160; &#160; &#160; &#9679; the timing and success of introductions of new products by us or our competitors or any other change in the competitive dynamics of our industry, including consolidation among competitors, customers or strategic partners; &#160; &#160; &#160; &#160; &#9679; network outages or security breaches; &#160; &#160; &#160; &#160; &#9679; our ability to attract new customers; &#160; &#160; &#160; &#160; &#9679; our ability to secure resources and the necessary personnel to conduct clinical trials on our desired schedule; &#160; &#160; &#160; &#160; &#9679; commencement, enrollment or results of our clinical trials for our product candidates or any future clinical trials we may conduct; &#160; &#160; &#160; &#160; &#9679; changes in the development status of our product candidates; &#160; &#160; &#160; &#160; &#9679; any delays or adverse developments or perceived adverse developments with respect to the FDA or other regulatory agencies&#8217; review of our planned pre-clinical and clinical trials; &#160; &#160; &#160; &#160; &#9679; any delay in our submission for studies or product approvals or adverse regulatory decisions, including failure to receive regulatory approval for our product candidates; &#160; &#160; &#160; &#160; &#9679; unanticipated safety concerns related to the use of our product candidates; &#160; &#160; &#160; &#160; &#9679; failures to meet external expectations or management guidance; &#160; &#160; &#160; &#160; &#9679; changes in our capital structure or dividend policy or future issuances of securities; &#160; &#160; &#160; &#160; &#9679; our cash position; &#160; &#160; &#160; &#160; &#9679; announcements and events surrounding financing efforts, including debt and equity securities; &#160; &#160; &#160; &#160; &#9679; our inability to enter into new markets or develop new products; &#160; &#160; &#160; &#160; &#9679; reputational issues; &#160; &#160; &#160; &#160; &#9679; competition from existing technologies and products or new technologies and products that may emerge; &#160; &#160; &#160; &#160; &#9679; announcements of acquisitions, partnerships, collaborations, joint ventures, new products, capital commitments, or other events by us or our competitors; ##TABLE_END &#160; 
+
+##TABLE_START &#160; &#9679; changes in general economic, political and market conditions in or any of the regions in which we conduct our business; &#160; &#160; &#160; &#160; &#9679; changes in industry conditions or perceptions; &#160; &#160; &#160; &#160; &#9679; changes in valuations of similar companies or groups of companies; &#160; &#160; &#160; &#160; &#9679; analyst research reports, recommendation and changes in recommendations, price targets, and withdrawals of coverage; &#160; &#160; &#160; &#160; &#9679; departures and additions of key personnel; ##TABLE_END &#160; 
+
+##TABLE_START 83 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+##TABLE_START &#160; &#9679; disputes and litigations related to intellectual properties, proprietary rights, and contractual obligations; &#160; &#160; &#160; &#160; &#9679; changes in applicable laws, rules, regulations, or accounting practices and other dynamics; and &#160; &#160; &#160; &#160; &#9679; other events or factors, many of which may be out of our control. ##TABLE_END &#160; 
+
+In addition, if the market for stocks in our industry or industries related to our industry, or the stock market in general, experiences a loss of investor confidence, the trading price of our common stock could decline for reasons unrelated to our business, financial condition and results of operations. If any of the foregoing occurs, it could cause our stock price to fall and may expose us to lawsuits that, even if unsuccessful, could be costly to defend and a distraction to management. 
+
+&#160; 
+
+We are currently listed on The Nasdaq Capital Market. If we are unable to maintain listing of our securities on Nasdaq or any stock exchange, our stock price could be adversely affected and the liquidity of our stock and our ability to obtain financing could be impaired and it may be more difficult for our stockholders to sell their securities. 
+
+&#160; 
+
+Although our common stock is currently listed on The Nasdaq Capital Market, we may not be able to continue to meet the exchange&#8217;s minimum listing requirements or those of any other national exchange. If we are unable to maintain listing on Nasdaq or if a liquid market for our common stock does not develop or is sustained, our common stock may remain thinly traded. 
+
+&#160; 
+
+The Listing Rules of Nasdaq require listing issuers to comply with certain standards in order to remain listed on its exchange. If, for any reason, we should fail to maintain compliance with these listing standards and Nasdaq should delist our securities from trading on its exchange and we are unable to obtain listing on another national securities exchange, a reduction in some or all of the following may occur, each of which could have a material adverse effect on our shareholders: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; the liquidity of our common stock; &#160; &#160; &#160; &#160; &#9679; the market price of our common stock; &#160; &#160; &#160; &#160; &#9679; our ability to obtain financing for the continuation of our operations; &#160; &#160; &#160; &#160; &#9679; the number of investors that will consider investing in our common stock; &#160; &#160; &#160; &#160; &#9679; the number of market makers in our common stock; &#160; &#160; &#160; &#160; &#9679; the availability of information concerning the trading prices and volume of our common stock; and &#160; &#160; &#160; &#160; &#9679; the number of broker-dealers willing to execute trades in shares of our common stock. ##TABLE_END &#160; 
+
+Because certain of our stockholders control a significant number of shares of our common stock, they may have effective control over actions requiring stockholder approval. 
+
+&#160; 
+
+As of March 17, 2023, our directors, executive officers and principal stockholders, and their respective affiliates, beneficially own approximately 64.73% of our outstanding shares of common stock. As a result, these stockholders, acting together, would have the ability to control the outcome of matters submitted to our stockholders for approval, including the election of directors and any merger, consolidation or sale of all or substantially all of our assets. In addition, these stockholders, acting together, would have the ability to control the management and affairs of our Company. Accordingly, this concentration of ownership might harm the market price of our common stock by: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; delaying, deferring or preventing a change in corporate control; &#160; &#160; &#160; &#160; &#9679; impeding a merger, consolidation, takeover or other business combination involving us; or &#160; &#160; &#160; &#160; &#9679; discouraging a potential acquirer from making a tender offer or otherwise attempting to obtain control of us. ##TABLE_END &#160; 
+
+##TABLE_START 84 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+We do not intend to pay cash dividends on our shares of common stock so any returns will be limited to the value of our shares. 
+
+&#160; 
+
+We currently anticipate that we will retain future earnings for the development, operation and expansion of our business and do not anticipate declaring or paying any cash dividends for the foreseeable future. Furthermore, any future debt agreements may also preclude us from paying or place restrictions on our ability to pay dividends. Any future determination as to the declaration and payment of dividends will be at the discretion of our board of directors and will depend on factors the board of directors deems relevant, including among others, our results of operations, financial condition and cash requirements, business prospects, and the terms of any of our financing arrangements. Therefore, any return to stockholders may be limited to the increase, if any, of our share price. There is no guarantee that our stock will appreciate in value. 
+
+&#160; 
+
+Our third amended and restated certificate of incorporation (&#8220;Amended and Restated Certificate of Incorporation&#8221;) and our amended and restated bylaws (the &#8220;Amended and Restated Bylaws&#8221;) and Delaware law may have anti-takeover effects that could discourage, delay or prevent a change in control, which may cause our stock price to decline. 
+
+&#160; 
+
+Our Amended and Restated Certificate of Incorporation and our Amended and Restated Bylaws and Delaware law could make it more difficult for a third party to acquire us, even if closing such a transaction would be beneficial to our stockholders. We are authorized to issue up to 10 million shares of preferred stock. This preferred stock may be issued in one or more series, the terms of which may be determined at the time of issuance by our board of directors without further action by stockholders. The terms of any series of preferred stock may include voting rights (including the right to vote as a series on particular matters), preferences as to dividend, liquidation, conversion and redemption rights and sinking fund provisions. The issuance of any preferred stock could materially adversely affect the rights of the holders of our common stock, and therefore, reduce the value of our common stock. In particular, specific rights granted to future holders of preferred stock could be used to restrict our ability to merge with, or sell our assets to, a third party and thereby preserve control by the present management. 
+
+&#160; 
+
+Provisions of our Amended and Restated Certificate of Incorporation and our Amended and Restated Bylaws and Delaware law also could have the effect of discouraging potential acquisition proposals or making a tender offer or delaying or preventing a change in control, including changes a stockholder might consider favorable. Such provisions may also prevent or frustrate attempts by our stockholders to replace or remove our management. In particular, our Amended and Restated Certificate of Incorporation and Amended and Restated Bylaws and Delaware law, as applicable, among other things: 
+
+&#160; 
+
+##TABLE_START &#160; &#9679; provide the board of directors with the ability to alter our Amended and Restated Bylaws without stockholder approval; &#160; &#160; &#160; &#160; &#9679; place limitations on the removal of directors; &#160; &#160; &#160; &#160; &#9679; establish advance notice requirements for nominations for election to the board of directors or for proposing matters that can be acted upon at stockholder meetings; and &#160; &#160; &#160; &#160; &#9679; provide that vacancies on the board of directors may be filled by a majority of directors in office, although less than a quorum. ##TABLE_END &#160; 
+
+Our Certificate of Incorporation provides that the Court of Chancery of the State of Delaware will be the sole and exclusive forum for substantially all disputes between us and our stockholders, which could limit stockholders&#8217; ability to obtain a favorable judicial forum for disputes with the us or our directors, officers or employees. 
+
+&#160; 
+
+Our Certificate of Incorporation provides that unless we consent in writing to the selection of an alternative forum, the State of Delaware is the sole and exclusive forum for: (i) any derivative action or proceeding brought on behalf of us, (ii) any action asserting a claim of breach of a fiduciary duty owed by any director, officer or other employee of our Company to us or our stockholders, (iii) any action asserting a claim against us, our directors, officers or employees arising pursuant to any provision of the Delaware General Corporation Law (the &#8220;DGCL&#8221;) or our Amended and Restated Certificate of Incorporation or our Amended and Restated Bylaws, or (iv) any action asserting a claim against us, our directors, officers, employees or agents governed by the internal affairs doctrine, except for, as to each of (i) through (iv) above, any claim as to which the Court of Chancery determines that there is an indispensable party not subject to the jurisdiction of the Court of Chancery (and the indispensable party does not consent to the personal jurisdiction of the Court of Chancery within ten days following such determination), which is vested in the exclusive jurisdiction of a court or forum other than the Court of Chancery, or for which the Court of Chancery does not have subject matter jurisdiction. This exclusive forum provision would not apply to suits brought to enforce any liability or duty created by the Securities Act or the Exchange Act or any other claim for which the federal courts have exclusive jurisdiction. To the extent that any such claims may be based upon federal law claims, Section 27 of the Exchange Act creates exclusive federal jurisdiction over all suits brought to enforce any duty or liability created by the Exchange Act or the rules and regulations thereunder. 
+
+&#160; 
+
+##TABLE_START 85 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+Section 22 of the Securities Act creates concurrent jurisdiction for federal and state courts over all suits brought to enforce any duty or liability created by the Securities Act or the rules and regulations thereunder. However, our Amended and Restated Certificate of Incorporation contains a federal forum provision which provides that unless we consent in writing to the selection of an alternative forum, the federal district courts of the United States of America will be the exclusive forum for the resolution of any complaint asserting a cause of action arising under the Securities Act. Any person or entity purchasing or otherwise acquiring any interest in shares of our capital stock are deemed to have notice of and consented to this provision. 
+
+&#160; 
+
+These choice of forum provisions may limit a stockholder&#8217;s ability to bring a claim in a judicial forum that it finds favorable for disputes with us or our directors, officers or other employees and may result in increased costs to our stockholders, which may discourage such lawsuits against us and our directors, officers and other employees. Alternatively, if a court were to find our choice of forum provisions contained in our Amended and Restated Certificate of Incorporation to be inapplicable or unenforceable in an action, we may incur additional costs associated with resolving such action in other jurisdictions, which could harm our business, results of operations, and financial condition. 
+
+&#160; 
+
+Failure to maintain effective internal controls could cause our investors to lose confidence in us and adversely affect the market price of our common stock. If our internal controls are not effective, we may not be able to accurately report our financial results or prevent fraud. 
+
+&#160; 
+
+Effective internal control over financial reporting is necessary for us to provide reliable financial reports in a timely manner. Our management concluded there was a material weakness in our internal control over financial reporting as of December 31, 2022 as, due to our small size, and our limited number of personnel, we did not have in place an effective internal control environment with formal processes and procedures, including journal entry processing and review, to allow for a detailed review of accounting transactions that would identify errors in a timely manner. A material weakness is a significant deficiency, or a combination of significant deficiencies, in internal control over financial reporting such that it is reasonably possible that a material misstatement of the annual or interim financial statements will not be prevented or detected on a timely basis. 
+
+&#160; 
+
+We have implemented additional review procedures including addition of accounting consultants to remediate such weakness. While we believe that our remediation efforts will resolve the identified material weakness, there is no assurance that such efforts will be sufficient or that additional actions will not be necessary, which may undermine our ability to provide accurate, timely and reliable reports on our financial and operating results. Furthermore, if we remediate our current material weakness but identify new material weaknesses in our internal control over financial reporting in the future, investors may lose confidence in the accuracy and completeness of our financial reports and the market price of our common stock may be negatively affected. As a result of such failures, we could also become subject to investigations by Nasdaq, the SEC, or other regulatory authorities, and become subject to litigation from investors and stockholders, which could harm our reputation, financial condition or divert financial and management resources from our business.
+
+&#160; 
+
+General Risk Factors 
+
+&#160; 
+
+Market and economic conditions may negatively impact our business, financial condition and share price. 
+
+&#160; 
+
+Concerns over medical epidemics, energy costs, geopolitical issues, the U.S. mortgage market and a deteriorating real estate market, unstable global credit markets and financial conditions, and volatile oil prices have led to periods of significant economic instability, diminished liquidity and credit availability, declines in consumer confidence and discretionary spending, diminished expectations for the global economy and expectations of slower global economic growth, increased unemployment rates, and increased credit defaults in recent years. Our general business strategy may be adversely affected by any such economic downturns, volatile business environments and continued unstable or unpredictable economic and market conditions. If these conditions continue to deteriorate or do not improve, it may make any necessary debt or equity financing more difficult to complete, more costly, and more dilutive. Failure to secure any necessary financing in a timely manner and on favorable terms could have a material adverse effect on our growth strategy, financial performance, and share price and could require us to delay or abandon development or commercialization plans. 
+
+&#160; 
+
+##TABLE_START 86 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+&#160; 
+
+If securities or industry analysts do not publish research or reports, or publish unfavorable research or reports about our business, our stock price and trading volume may decline. 
+
+&#160; 
+
+The trading market for our common stock relies in part on the research and reports that industry or financial analysts publish about us, our business, our markets and our competitors. We do not control these analysts. If securities analysts do not cover our common stock, the lack of research coverage may adversely affect the market price of our common stock. Furthermore, if one or more of the analysts who do cover us downgrade our stock or if those analysts issue other unfavorable commentary about us or our business, our stock price would likely decline. If one or more of these analysts cease coverage of us or fails to regularly publish reports on us, we could lose visibility in the market and interest in our stock could decrease, which in turn could cause our stock price or trading volume to decline and may also impair our ability to expand our business with existing customers and attract new customers. 
+
+&#160; 
+
+Future sales and issuances of our common stock could result in additional dilution of the percentage ownership of our stockholders and could cause our share price to fall. In addition, the perception that sales of our common stock could occur, could cause our stock price to fall. 
+
+&#160; 
+
+We expect that significant additional capital will be needed to continue our planned operations, including increased marketing, hiring new personnel, commercializing our products, and continuing activities as an operating public company. To the extent we raise additional capital by issuing equity securities, our stockholders may experience substantial dilution. We may sell common stock, convertible securities or other equity securities in one or more transactions at prices and in a manner we determine from time to time. If we sell common stock, convertible securities or other equity securities in more than one transaction, investors may be materially diluted by subsequent sales. Such sales may also result in material dilution to our existing stockholders, and new investors could gain rights superior to our existing stockholders. Furthermore, sales of a substantial number of our shares of common stock in the public markets or the perception that such sales could occur, could depress the market price of our common stock and impair our ability to raise capital through the sale of additional equity securities.
+
+&#160;
+
+The number of shares of our common stock available for future issuance or sale could adversely affect the per share trading price of our common stock. 
+
+&#160;
+
+We cannot predict whether future issuances or sales of our common stock or the availability of shares for resale in the open market will decrease the per share trading price of our common stock. The issuance of a substantial number of shares of our common stock in the public market or the perception that such issuances might occur could adversely affect the per share trading price of our common stock.
+
+&#160; 
+
+We are an &#8220;emerging growth company&#8221; and will be able to avail ourselves of reduced disclosure requirements applicable to emerging growth companies, which could make our common stock less attractive to investors. 
+
+&#160; 
+
+We are an &#8220;emerging growth company,&#8221; as defined in the JOBS Act and we intend to take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not &#8220;emerging growth companies&#8221; including not being required to comply with the auditor attestation requirements of Section 404(b) of the Sarbanes-Oxley Act, reduced disclosure obligations regarding executive compensation in our periodic reports and proxy statements, and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and stockholder approval of any golden parachute payments not previously approved. In addition, pursuant to Section 107 of the JOBS Act, as an &#8220;emerging growth company&#8221; we intend to take advantage of the extended transition period provided in Section 7(a)(2)(B) of the Securities Act, for complying with new or revised accounting standards. In other words, an &#8220;emerging growth company&#8221; can delay the adoption of certain accounting standards until those standards would otherwise apply to private companies. We cannot predict if investors will find our common stock less attractive because we may rely on these exemptions. If some investors find our common stock less attractive as a result, there may be a less active trading market for our common stock and our stock price may be more volatile. We may take advantage of these reporting exemptions until we are no longer an &#8220;emerging growth company.&#8221; We will remain an &#8220;emerging growth company&#8221; until the earliest of (i) the last day of the fiscal year in which we have total annual gross revenues of $1.235 billion or more; (ii) the last day of our fiscal year following the fifth anniversary of the date of the completion of our initial public offering; (iii) the date on which we have issued more than $1 billion in nonconvertible debt during the previous three years; or (iv) the date on which we are deemed to be a large accelerated filer under the rules of the SEC. 
+
+&#160; 
+
+##TABLE_START 87 ##TABLE_END
+
+&#160;
+
+&#160; 
+
+We may be at risk of securities class action litigation. 
+
+&#160; 
+
+We may be at risk of securities class action litigation. In the past, biotechnology and pharmaceutical companies have experienced significant stock price volatility, particularly when associated with binary events such as clinical trials and product approvals. If we face such litigation, it could result in substantial costs and a diversion of management&#8217;s attention and resources, which could harm our business and results in a decline in the market price of our common stock. 
+
+&#160; 
+
+Financial reporting obligations of being a public company in the U.S. are expensive and time-consuming, and our management will be required to devote substantial time to compliance matters. 
+
+&#160; 
+
+As a publicly traded company we incur significant additional legal, accounting and other expenses. The obligations of being a public company in the U.S. require significant expenditures and place significant demands on our management and other personnel, including costs resulting from public company reporting obligations under the Exchange Act and the rules and regulations regarding corporate governance practices, including those under the Sarbanes-Oxley Act, the Dodd-Frank Wall Street Reform and Consumer Protection Act, and the listing requirements of The Nasdaq Capital Market. These rules require the establishment and maintenance of effective disclosure and financial controls and procedures, internal control over financial reporting and changes in corporate governance practices, among many other complex rules that are often difficult to implement, monitor and maintain compliance with. Moreover, despite recent reforms made possible by the JOBS Act, the reporting requirements, rules, and regulations will make some activities more time-consuming and costly, particularly after we are no longer an &#8220;emerging growth company&#8221; or a &#8220;smaller reporting company.&#8221; Our management and other personnel will need to devote a substantial amount of time to ensure that we comply with all of these requirements and to keep pace with new regulations, otherwise we may fall out of compliance and risk becoming subject to litigation or being delisted, among other potential problems. 
+
+&#160; 
+

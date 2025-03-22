@@ -1,0 +1,92 @@
+(.venv) techs-MBPro:v16-new-beginning tech$ python sec_analyzer_langgraph.py "Summarize the Management Discussion and Analysis section of Microsoft's 2023 10-K"clear
+
+
+> Entering new AgentExecutor chain...
+2025-03-21 17:00:55,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+### Step 1: Resolve Microsoft's CIK
+#### What Information is Needed:
+Company name to find CIK
+#### Tool to Use:
+ResolveCompany with parameter_type="name"
+#### Expected Output:
+Microsoft's CIK
+
+### Step 2: Find Microsoft's 2023 10-K Filing
+#### What Information is Needed:
+Microsoft's CIK, 2023, and form type
+#### Tool to Use:
+SECQueryAPI with filters for CIK, date range, and form type
+#### Expected Output:
+Microsoft's 2023 10-K filing accession number
+
+### Step 3: Extract 10-K's Management Discussion
+#### What Information is Needed:
+Accession number and section "7"
+#### Tool to Use:
+SECExtractSection with specific section ID
+#### Expected Output:
+Management Discussion and Analysis text
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+2025-03-21 17:01:01,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+Invoking: `ResolveCompany` with `{'parameter_type': 'name', 'value': 'Microsoft Corporation'}`
+
+
+2025-03-21 17:01:03,474 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[]I was unable to resolve the CIK for Microsoft Corporation using the provided instructions. This could be due to a lack of available data or an issue with the request. Please verify the company name and try again, or consult another data source for this information.
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+2025-03-21 17:01:06,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+Invoking: `ResolveCompany` with `{'parameter_type': 'name', 'value': 'Microsoft'}`
+
+
+2025-03-21 17:01:07,741 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[{'name': 'MICROSOFT CORP', 'ticker': 'MSFT', 'cik': '789019', 'cusip': '594918104', 'exchange': 'NASDAQ', 'isDelisted': False, 'category': 'Domestic Common Stock', 'sector': 'Technology', 'industry': 'Software - Infrastructure', 'sic': '7372', 'sicSector': 'Services', 'sicIndustry': 'Services-Prepackaged Software', 'famaSector': '', 'famaIndustry': 'Business Services', 'currency': 'USD', 'location': 'Washington; U.S.A', 'id': '0f08a6a6742dc4148badfef6977406cf'}, {'name': 'T-REX 2X LONG MICROSOFT DAILY TARGET ETF', 'ticker': 'MSFX', 'cik': '1771146', 'cusip': '26923N579', 'exchange': 'BATS', 'isDelisted': False, 'category': 'ETF', 'sector': '', 'industry': '', 'sic': '', 'sicSector': '', 'sicIndustry': '', 'famaSector': '', 'famaIndustry': '', 'currency': 'USD', 'location': 'Virginia; U.S.A', 'id': '6b1899bae2bdd13a77696f94859e1227'}, {'name': 'KURV YIELD PREMIUM STRATEGY MICROSOFT (MSFT) ETF', 'ticker': 'MSFY', 'cik': '1848758', 'cusip': '78433H782 500948708', 'exchange': 'BATS', 'isDelisted': False, 'category': 'ETF', 'sector': '', 'industry': '', 'sic': '', 'sicSector': '', 'sicIndustry': '', 'famaSector': '', 'famaIndustry': '', 'currency': 'USD', 'location': 'Connecticut; U.S.A', 'id': '2cc1c7890805fdb8a65806a8752772eb'}]
+Invoking: `SECQueryAPI` with `{'ticker': 'MSFT', 'form_type': '10-K', 'from_date': '2023-01-01', 'to_date': '2023-12-31', 'size': '1'}`
+
+
+
+Most Recent Filing:
+Company: MICROSOFT CORP (Ticker: MSFT)
+Form Type: 10-K
+Filed At: 2023-07-27T16:01:56-04:00
+Filing URL: https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm
+2025-03-21 17:01:09,878 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+I have found Microsoft's 2023 10-K filing:
+
+- **Company:** MICROSOFT CORP
+- **Ticker:** MSFT
+- **Form Type:** 10-K
+- **Filed At:** 2023-07-27T16:01:56-04:00
+- **Filing URL:** [https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm](https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm)
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+2025-03-21 17:01:15,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+Invoking: `ResolveCompany` with `{'parameter_type': 'name', 'value': 'Microsoft Corporation'}`
+
+
+2025-03-21 17:01:17,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[]There seems to be an issue retrieving the company information for Microsoft Corporation. Without the company ticker, I cannot proceed to extract the Management Discussion and Analysis section of the 2023 10-K filing. Please ensure the company name is correctly spelled and retry or provide the necessary details to continue with the analysis.
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+2025-03-21 17:01:19,852 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Due to an issue with retrieving company information for Microsoft Corporation, the Management Discussion and Analysis section of the 2023 10-K filing could not be extracted or summarized. The necessary company ticker was not available, which halted the process. Please ensure that Microsoft's name is correctly spelled and provide the required details, such as the company ticker, to proceed with the analysis.
+
+> Finished chain.
+No answer generated.
+(.venv) techs-MBPro:v16-new-beginning tech$ 

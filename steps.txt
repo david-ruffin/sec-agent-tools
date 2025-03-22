@@ -1,0 +1,77 @@
+1. PLANNING (OpenAI)
+Status Check:
+- 200: Proceed to step 2
+- ANY OTHER STATUS: End process, return error to user
+No retries, no complex logic.
+API: OpenAI only
+Purpose: Parse query and determine steps
+Input: Raw user query
+Output: Structured plan
+Success Criteria:
+Goal: 
+
+2. COMPANY RESOLUTION
+First: SEC-API Query
+Status Check:
+- 200: Proceed to OpenAI processing
+- ANY OTHER STATUS: End process, return error to user
+Expected Flow:
+1. SEC-API call first
+APIs: 
+- SEC-API (Query API) - To get company details
+
+Then: OpenAI processing
+Status Check:
+- 200: Proceed to step 3
+- ANY OTHER STATUS: End process, return error to user
+Expected Flow:
+2. If successful (200), OpenAI processes the data
+APIs: 
+- OpenAI - To validate/structure the SEC-API response
+
+3. FILING SEARCH
+First: SEC-API Query
+Status Check:
+- 200: Proceed to OpenAI processing
+- ANY OTHER STATUS: End process, return error to user
+Expected Flow:
+1. SEC-API call to get filings
+APIs:
+- SEC-API (Query API) - To find specific filings
+
+Then: OpenAI processing
+Status Check:
+- 200: Proceed to step 4
+- ANY OTHER STATUS: End process, return error to user
+Expected Flow:
+2. If successful (200), OpenAI processes the results
+APIs:
+- OpenAI - To validate/structure the SEC-API response
+
+4. DATA EXTRACTION
+First: SEC-API (Extractor/XBRL)
+Status Check:
+- 200: Proceed to OpenAI processing
+- ANY OTHER STATUS: End process, return error to user
+Expected Flow:
+1. SEC-API call to extract data
+APIs:
+- SEC-API (Extractor API or XBRL API depending on data needed)
+
+Then: OpenAI processing
+Status Check:
+- 200: Proceed to step 5
+- ANY OTHER STATUS: End process, return error to user
+Expected Flow:
+2. If successful (200), OpenAI processes the content
+APIs:
+- OpenAI - To process/structure the extracted data
+
+5. RESPONSE GENERATION (OpenAI)
+Status Check:
+- 200: Return final response to user
+- ANY OTHER STATUS: End process, return error to user
+API: OpenAI only
+Purpose: Format final response
+Input: All previous successful results
+Output: Formatted answer for user

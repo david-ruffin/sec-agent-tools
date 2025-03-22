@@ -1,0 +1,26 @@
+Query: Summarize the Management Discussion and Analysis section of Microsoft's 2023 10-K
+
+Planning Result:
+### Step 1: Identify Microsoft's CIK
+#### What Information is Needed:
+Company name or ticker for CIK
+#### Tool to Use:
+ResolveCompany parameter_type="name", query="Microsoft"
+#### Expected Output:
+Microsoft's CIK number
+
+### Step 2: Locate Microsoft's 2023 10-K Filing
+#### What Information is Needed:
+Microsoft's CIK and year for 10-K
+#### Tool to Use:
+SECQueryAPI with filters for CIK and date range for 2023
+#### Expected Output:
+Microsoft's 2023 10-K filing accession number
+
+### Step 3: Extract MD&A Section from 10-K
+#### What Information is Needed:
+Accession number and "7" for MD&A
+#### Tool to Use:
+SECExtractSection with section_id="7"
+#### Expected Output:
+Text of the MD&A section

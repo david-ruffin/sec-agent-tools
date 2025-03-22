@@ -1,0 +1,1 @@
+Please specify a query in the format: Summarize the Management Discussion and Analysis section of [Company]'s [Year] 10-K

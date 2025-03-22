@@ -13,4 +13,20 @@ Current workaround: Manually specify size parameter in search_sec_filings() call
 
 Priority: Low
 Status: Deferred
-Reason: Core functionality works without it. Can be added if query parameter handling becomes complex. 
+Reason: Core functionality works without it. Can be added if query parameter handling becomes complex.
+
+SUGGESTIONS FOR FUTURE IMPROVEMENTS
+
+1. Company Resolution Enhancements
+   - Fix CIK-based company search in company_resolution_step
+   - Current bug: Uses ticker:CIK instead of cik:CIK format
+   - Impact: Medium (affects direct CIK queries)
+   - Solution: Update query construction to respect identifier_type from sec_api_knowledge
+
+2. Additional Error Cases to Consider
+   - Company not found
+   - Invalid CIK format
+   - Rate limiting
+   - Network errors
+
+Note: These suggestions are out of scope for the core functionality as defined in @steps.txt 
