@@ -1,6 +1,53 @@
+"""
 # SEC-API Agent Implementation Prompt
 
 Use this prompt to implement standardized tool agents for SEC-API endpoints. Each agent should follow the exact structure defined below to ensure consistency, proper error handling, and seamless integration.
+
+## Standardized Agent Development Workflow
+
+For each SEC-API endpoint, follow this consistent development process:
+
+1. **Document API Capabilities (Planning Phase)**
+   - Create `{api_name}_agent_plan.md` with:
+     - Complete list of ALL methods and functionalities the API offers
+     - Parameter descriptions, types, and whether they're required or optional
+     - Response format and field descriptions
+     - ALL relevant documentation text from SEC-API-Python
+     - Example usage patterns and code snippets
+     - Error scenarios and expected handling
+   - This document serves as the comprehensive reference and contract for implementation
+   - The plan MUST be complete before moving to test creation
+
+2. **Create Test File Based on Plan**
+   - Create `test_{api_name}_agent.py` that verifies:
+     - EVERY method and functionality documented in the plan
+     - ALL parameter combinations specified in the plan
+     - EVERY error scenario outlined in the plan
+     - Response format consistency as defined in the plan
+   - Tests should be written against the plan's specifications
+   - NO implementation details should be assumed beyond what's in the plan
+   - Tests serve as executable documentation of the plan's requirements
+
+3. **Implement Agent Following Plan and Tests**
+   - Create `{api_name}_agent.py` implementing:
+     - ALL functionality documented in the plan
+     - Passing ALL tests created from the plan
+     - Following the exact structure shown in this document
+     - Maintaining consistent error handling
+   - Implementation should satisfy both plan and tests
+   - NO functionality should be added that isn't in the plan
+
+4. **Verification and Documentation**
+   - Run tests to verify implementation matches plan requirements
+   - Update plan document with any discovered limitations
+   - Document implementation decisions in the plan
+   - Ensure all three files remain in sync
+
+This workflow ensures that:
+- The plan serves as the single source of truth
+- Tests verify the plan's requirements
+- Implementation satisfies both plan and tests
+- All components remain aligned
 
 ## Agent Structure Requirements
 
@@ -115,6 +162,10 @@ def {api_name}_agent(
 
 7. **TRANSPARENCY** - Always include metadata with timestamp, endpoint name, and parameter presence information.
 
+8. **SIMPLICITY OVER COMPLEXITY** - Prefer implementations with fewer conditionals and special cases. Use the exact methods shown in documentation.
+
+9. **LITERAL INTERPRETATION** - Follow the API documentation examples exactly, even if you think there might be a "better" way to do it.
+
 ## How to Determine Parameters from SEC-API Documentation
 
 1. **Required Parameters**: 
@@ -200,11 +251,8 @@ def company_resolution_agent(
         from sec_api import MappingApi
         mapping_api = MappingApi(api_key=api_key, proxies=proxies)
         
-        # Call the appropriate method based on identifier_type
-        if identifier_type == "name":
-            result = mapping_api.get_company_by_name(identifier_value)
-        else:
-            result = mapping_api.resolve(identifier_type, identifier_value)
+        # Use resolve() method for all identifier types
+        result = mapping_api.resolve(identifier_type, identifier_value)
         
         # Return standardized success response
         return {
@@ -250,6 +298,8 @@ When implementing an agent for any SEC-API endpoint:
 9. [ ] Return standardized response format with status, data, error, and metadata
 10. [ ] Set appropriate status codes for different error scenarios
 11. [ ] Include timestamp and API endpoint info in metadata
+12. [ ] Verify the API method exists in the SEC-API documentation before using it
+13. [ ] Test with real API calls before finalizing
 
 ## Linting and Testing Framework
 
@@ -314,7 +364,6 @@ def mock_mapping_api():
     with patch('sec_api.MappingApi') as mock:
         instance = mock.return_value
         instance.resolve.return_value = {"name": "Test Company", "cik": "123456", "ticker": "TEST"}
-        instance.get_company_by_name.return_value = [{"name": "Test Company", "cik": "123456", "ticker": "TEST"}]
         yield instance
 
 # Tests
@@ -337,19 +386,12 @@ class TestCompanyResolutionAgent:
         assert "identifier_type must be one of" in result["error"]
         assert result["data"] is None
         
-    def test_successful_ticker_lookup(self, mock_mapping_api):
+    def test_successful_lookup(self, mock_mapping_api):
         result = company_resolution_agent(identifier_type="ticker", identifier_value="TEST")
         assert result["status"] == 200
         assert result["data"] == {"name": "Test Company", "cik": "123456", "ticker": "TEST"}
         assert result["error"] is None
         mock_mapping_api.resolve.assert_called_once_with("ticker", "TEST")
-        
-    def test_successful_name_lookup(self, mock_mapping_api):
-        result = company_resolution_agent(identifier_type="name", identifier_value="Test Company")
-        assert result["status"] == 200
-        assert result["data"] == [{"name": "Test Company", "cik": "123456", "ticker": "TEST"}]
-        assert result["error"] is None
-        mock_mapping_api.get_company_by_name.assert_called_once_with("Test Company")
         
     def test_api_error_handling(self, mock_mapping_api):
         mock_mapping_api.resolve.side_effect = Exception("API rate limit exceeded")
@@ -358,6 +400,34 @@ class TestCompanyResolutionAgent:
         assert "API rate limit exceeded" in result["error"]
         assert result["data"] is None
         assert result["metadata"]["exception_type"] == "Exception"
+```
+
+### Simplified Testing Approach
+
+For initial testing, you can use a simple script:
+
+```python
+# test_company_resolution_agent.py
+from company_resolution_agent import company_resolution_agent
+
+def test_company_resolution_agent():
+    # Test with valid parameters
+    print("\nTesting with company name...")
+    result = company_resolution_agent("name", "Microsoft")
+    print(f"Status: {result['status']}")
+    if result['status'] == 200:
+        print(f"Data: {result['data']}")
+    else:
+        print(f"Error: {result['error']}")
+    
+    # Test with invalid parameters
+    print("\nTesting with invalid identifier type...")
+    result = company_resolution_agent("invalid", "test")
+    print(f"Status: {result['status']}")
+    print(f"Error: {result['error']}")
+
+if __name__ == "__main__":
+    test_company_resolution_agent()
 ```
 
 ### Running Tests
@@ -426,3 +496,96 @@ For a system with 30+ agents that need consistent implementation and error handl
 5. **Quality Assurance**: Linting ensures code style consistency across all agents
 
 The investment in setting up TDD and linting will save significant time in debugging and maintenance as the system grows. 
+
+# SEC Agent Building Guidelines
+
+## Agent Structure
+Each SEC API agent should consist of three files in the `agents` directory:
+
+1. **Plan File** (`*_agent_plan.md`):
+   - API overview and capabilities
+   - Available methods and parameters
+   - Response format documentation
+   - Implementation requirements
+   - Error handling guidelines
+
+2. **Agent File** (`*_agent.py`):
+   - Clean, focused implementation
+   - Full API functionality exposed
+   - Consistent error handling
+   - Standard response format
+   - Input validation
+
+3. **Test File** (`test_*_agent.py`):
+   - Comprehensive test cases
+   - Error condition testing
+   - Response validation
+   - Example usage
+
+## Implementation Guidelines
+
+1. **Start with the Plan**:
+   - Document API capabilities
+   - Define required methods
+   - Specify response formats
+   - List error conditions
+   - Note implementation requirements
+
+2. **Create the Agent**:
+   - Follow the plan exactly
+   - Implement all documented methods
+   - Use consistent error handling
+   - Return standardized responses
+   - Add helpful docstrings
+
+3. **Write Tests**:
+   - Test all documented methods
+   - Cover error conditions
+   - Validate responses
+   - Include usage examples
+   - Test edge cases
+
+## Standard Response Format
+All agents should return responses in this format:
+
+```python
+{
+    "status": int,  # HTTP status code
+    "error": str,   # Error message if status != 200
+    "data": Any,    # Response data if status == 200
+    "metadata": {   # Request/response metadata
+        "timestamp": str,
+        "endpoint": str,
+        "params": dict
+    }
+}
+```
+
+## Error Handling
+All agents should handle:
+
+1. Invalid inputs
+2. Missing required parameters
+3. Network errors
+4. API rate limits
+5. Authentication failures
+
+## Documentation
+All agents should include:
+
+1. Clear docstrings
+2. Parameter descriptions
+3. Return value documentation
+4. Error condition descriptions
+5. Usage examples
+
+## Testing
+All tests should verify:
+
+1. Successful API calls
+2. Error conditions
+3. Response format
+4. Data validation
+5. Edge cases
+
+Remember: Each agent should be a "dumb" tool that exposes the full functionality of its SEC-API endpoint while maintaining consistent error handling and response structure. 

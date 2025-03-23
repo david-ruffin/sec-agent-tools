@@ -57,99 +57,173 @@ The planner agent is the ONLY component permitted to:
 - Adapt strategies
 - Make decisions
 
-## System Architecture
+## LangGraph Integration
 
-### 1. Smart Planner Agent
+The system will leverage LangGraph for orchestrating the multi-agent workflow. This implementation focuses on core functionality for the POC without over-engineering.
 
-The planner agent interprets user queries, plans the necessary steps, and orchestrates the tool agents to fulfill the request. It is the only component that requires LLM capabilities.
+### State Management
 
-**Responsibilities**:
-- Parse user queries to understand intent
-- Identify relevant SEC filings, sections, or data needed
-- Break down complex requests into sequential steps
-- Select appropriate tool agents for each step
-- Provide explicit parameters to tool agents
-- Handle error cases and adapt the plan as needed
-- Format the final response for the user
-
-**Example Workflow**:
-1. User asks: "What are Facebook's cybersecurity risks in their latest 10-K?"
-2. Planner identifies: need company info, latest 10-K filing, and section 1C
-3. Planner creates execution plan with exact parameters for each step
-4. Planner orchestrates tool agents in sequence
-5. Planner formats final response from the extracted data
-
-### 2. Standardized Agent Structure
-
-Each tool agent must follow this exact structure:
+Define a simple state schema for tracking agent interactions:
 
 ```python
-def agent_name(param1: Type, param2: Type, ...) -> Dict[str, Any]:
-    """Short description of what this agent does.
-    
-    Args:
-        param1: Description of parameter 1
-        param2: Description of parameter 2
-        ...
-        
-    Returns:
-        Dictionary with standardized fields:
-        - status: int (200 for success, error code otherwise)
-        - data: Any (the primary payload, when successful)
-        - error: str (error message, when unsuccessful)
-        - metadata: Dict (additional information about the response)
-    """
-    try:
-        # Call the SEC-API endpoint
-        result = api_endpoint(param1, param2, ...)
-        
-        # Return standardized success response
-        return {
-            "status": 200,
-            "data": result,
-            "error": None,
-            "metadata": {
-                "timestamp": datetime.now().isoformat(),
-                "api_endpoint": "endpoint_name",
-                # Any other useful metadata
-            }
-        }
-    except Exception as e:
-        # Return standardized error response
-        return {
-            "status": 500,  # Or more specific code if available
-            "data": None,
-            "error": str(e),
-            "metadata": {
-                "timestamp": datetime.now().isoformat(),
-                "api_endpoint": "endpoint_name",
-                # Any other useful metadata
-            }
-        }
+# Define state that tracks information between agents
+state_schema = {
+    "user_query": str,  # Original user question
+    "company_info": Optional[Dict],  # Company resolution results
+    "filings": Optional[List[Dict]],  # Filing search results
+    "current_filing": Optional[Dict],  # Current filing being analyzed
+    "extracted_content": Optional[Dict],  # Extracted section content
+    "current_status": str,  # Current status of the workflow
+    "errors": List[Dict],  # Any errors encountered
+    "final_response": Optional[str]  # Final answer to user
+}
 ```
 
-### 3. Agent Communication Protocol
+### Agent Graph Structure
 
-All agent communication follows a standardized protocol:
+Implement a directed graph structure using LangGraph:
 
-1. **Request Format**: Simple function calls with explicit parameters
-2. **Response Format**: Standardized dictionary with consistent fields
-3. **Status Codes**:
-   - 200: Success
-   - 400: Bad request (invalid parameters)
-   - 404: Resource not found
-   - 429: Rate limit exceeded
-   - 500: Internal error (unexpected exceptions)
+```python
+from langgraph.graph import StateGraph
+import operator
 
-### 4. Universal Identifiers
+# Create the graph
+workflow = StateGraph(state_schema)
 
-For cross-agent communication, we use these identifiers:
+# Add nodes for each agent
+workflow.add_node("planner", planner_agent)
+workflow.add_node("company_resolution", company_resolution_node)
+workflow.add_node("filing_search", filing_search_node)
+workflow.add_node("section_extraction", section_extraction_node)
+workflow.add_node("summarizer", summarizer_node)
 
-1. **CIK**: Primary identifier for companies (most stable)
-2. **Ticker**: Secondary identifier (can change over time)
-3. **Company Name**: Tertiary identifier (used mainly for initial queries)
+# Define the entry point
+workflow.set_entry_point("planner")
 
-The planner is responsible for mapping between these identifiers as needed.
+# Add conditional edges based on planner decisions
+workflow.add_conditional_edges(
+    "planner",
+    lambda state: state["next_step"],
+    {
+        "resolve_company": "company_resolution",
+        "search_filings": "filing_search",
+        "extract_section": "section_extraction",
+        "summarize": "summarizer",
+        "complete": "end"
+    }
+)
+
+# Each agent reports back to the planner after execution
+workflow.add_edge("company_resolution", "planner")
+workflow.add_edge("filing_search", "planner")
+workflow.add_edge("section_extraction", "planner")
+workflow.add_edge("summarizer", "planner")
+
+# Compile the graph
+sec_analysis_app = workflow.compile()
+```
+
+### Agent Implementation Types
+
+For the POC, we'll implement three specific types of agent nodes:
+
+1. **Tool Nodes**: Simple wrappers around SEC-API endpoints
+   ```python
+   def company_resolution_node(state):
+       """Node that calls the company_resolution_agent with parameters from state"""
+       try:
+           # Extract parameters from state
+           identifier_type = state.get("identifier_type", "name")
+           identifier_value = state.get("company_name")
+           
+           # Call the agent
+           result = company_resolution_agent(identifier_type, identifier_value)
+           
+           # Update state with results
+           return {
+               "company_info": result["data"],
+               "current_status": f"Company resolution: {result['status']}",
+               "errors": state["errors"] + [result["error"]] if result["error"] else state["errors"]
+           }
+       except Exception as e:
+           return {
+               "errors": state["errors"] + [{"source": "company_resolution", "error": str(e)}],
+               "current_status": "Error in company resolution"
+           }
+   ```
+
+2. **Planner Node**: Directs the workflow based on the current state and user query
+   ```python
+   def planner_agent(state):
+       """Analyzes the current state and determines next steps"""
+       # For the POC, use a simple OpenAI call to determine the next step
+       messages = [
+           {"role": "system", "content": "You are planning the steps to answer a user's question about SEC filings."},
+           {"role": "user", "content": f"User query: {state['user_query']}\nCurrent state: {state}"}
+       ]
+       
+       response = openai_client.chat.completions.create(
+           model="gpt-4",
+           messages=messages,
+           functions=[
+               {
+                   "name": "plan_next_step",
+                   "description": "Plan the next step in the SEC analysis workflow",
+                   "parameters": {
+                       "type": "object",
+                       "properties": {
+                           "next_step": {
+                               "type": "string", 
+                               "enum": ["resolve_company", "search_filings", "extract_section", "summarize", "complete"]
+                           },
+                           "reasoning": {"type": "string"}
+                       },
+                       "required": ["next_step", "reasoning"]
+                   }
+               }
+           ],
+           function_call={"name": "plan_next_step"}
+       )
+       
+       # Extract function call arguments
+       function_args = json.loads(response.choices[0].message.function_call.arguments)
+       
+       # Return updated state with next step
+       return {
+           "next_step": function_args["next_step"],
+           "current_status": f"Planning: {function_args['reasoning']}"
+       }
+   ```
+
+3. **Summarizer Node**: Formats the final response to the user (only uses LLM capabilities)
+   ```python
+   def summarizer_node(state):
+       """Creates a final response based on extracted information"""
+       # Only runs when we have content to summarize
+       if not state.get("extracted_content"):
+           return {
+               "errors": state["errors"] + [{"source": "summarizer", "error": "No content to summarize"}],
+               "current_status": "Error in summarization"
+           }
+       
+       # Use OpenAI to generate a summary
+       messages = [
+           {"role": "system", "content": "You are summarizing SEC filing information based on a user query."},
+           {"role": "user", "content": f"Query: {state['user_query']}\nExtracted content: {state['extracted_content']}"}
+       ]
+       
+       response = openai_client.chat.completions.create(
+           model="gpt-4",
+           messages=messages
+       )
+       
+       # Return final response
+       return {
+           "final_response": response.choices[0].message.content,
+           "current_status": "Completed",
+           "next_step": "complete"
+       }
+   ```
 
 ## Complete Tool Agent Catalog
 
@@ -637,7 +711,7 @@ Based on the SEC-API documentation, here are all available tool agents:
 
 #### 32. Company Resolution Agent (MappingApi)
 
-**SEC-API Endpoint**: `MappingApi.resolve()` / `MappingApi.get_company_by_name()`  
+**SEC-API Endpoint**: `MappingApi.resolve()`  
 **Description**: Resolves company identifiers (name, CIK, ticker).  
 **Input Format**:
 ```python
@@ -719,7 +793,7 @@ Based on the SEC-API documentation, here are all available tool agents:
 
 **Milestone 6: Advanced Graph Structure**
 - Implement conditional branching in the graph
-- Add error handling and recovery paths
+- Add error handling paths
 - Success Criteria: System gracefully handles errors and adapts workflow
 
 ### Phase 4: Refinement and Expansion
@@ -777,6 +851,20 @@ XBRL Agent → Planner: {status: 200, data: {...}, ...}
 
 Planner → User: "<formatted comparison of revenue growth>"
 ```
+
+### Additional Example Queries
+
+The system is designed to handle a wide range of queries about SEC filings, such as:
+
+1. **Section Analysis**: "Summarize the Management Discussion and Analysis section of Microsoft's 2023 10-K"
+2. **Financial Data Extraction**: "How many shares outstanding did Immix Biopharma have as of 12/31/23?"
+3. **Trend Analysis**: "What did Immix Biopharma report as revenue for the quarter ended September 30, 2024?"
+4. **Cross-Filing Comparison**: "Identify and list risk factors that are similar across Apple's four most recent quarterly (10-Q) filings"
+5. **Change Detection**: "Identify new significant accounting policies introduced in Amazon's latest quarterly report compared to the previous four quarterly reports"
+6. **Topic-Specific Analysis**: "Detect and analyze new footnote disclosures related to cybersecurity in Tesla's most recent quarterly report (10-Q)"
+7. **Time Series Analysis**: "How many stock options, on average, have been granted each quarter over the past eight quarters for Coca-Cola?"
+8. **Policy Extraction**: "What did Microsoft list as the recent accounting guidance on their last 10-K?"
+9. **Industry Comparison**: "What did the largest companies in the farming industry report as their revenue recognition policy in their 2024 10-K?"
 
 ## Technical Considerations
 
@@ -855,13 +943,15 @@ The planner should use an LLM with a prompt template that includes:
 3. **Examples**: Sample queries and how to break them down
 4. **Output Format**: Clear structure for tool selection and parameter formatting
 
-## Testing Strategy
+## Simple Testing Strategy
 
-Each milestone should be tested independently with:
+For the POC, we'll use a simplified testing approach:
 
-1. **Unit Tests**: Verify each tool agent works correctly with valid and invalid inputs
-2. **Integration Tests**: Verify multi-step workflows with predefined inputs
-3. **End-to-End Tests**: Verify complete user journeys from query to response
+1. **Manual Function Testing**: Test each agent function independently with real API calls
+2. **Logging**: Implement detailed logging for debugging
+3. **Status Codes**: Use HTTP-style status codes to track success/failure
+
+This will provide sufficient validation while avoiding over-engineering.
 
 ## Conclusion
 

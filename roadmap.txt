@@ -30,207 +30,113 @@ The core architecture consists of:
 
 ## Tasks and Milestones
 
-### Phase 1: Knowledge Module Enhancement (CURRENT)
+### Phase 1: Knowledge Module Enhancement (COMPLETED)
 
 1. [DONE] Create comprehensive section ID mappings for 10-K, 10-Q, and 8-K filings
 2. [DONE] Map financial metrics to XBRL field names
 3. [DONE] Implement query intent detection (financial vs. textual)
 4. [DONE] Add tool selection logic based on query type
 
-### Phase 2: Context Preservation Implementation
+### Phase 2: Agent Implementation (CURRENT)
 
-1. [IN PROGRESS] Enhance the SEC-API tools to maintain context between steps:
+1. [COMPLETED] Implement core SEC-API agents:
+   - Filing Search Agent (QueryApi)
+   - Full Text Search Agent (FullTextSearchApi)
+   - Section Extraction Agent (ExtractorApi)
+   - XBRL Converter Agent (XbrlApi)
+   - Mapping Agent (MappingApi)
+   - EDGAR Entities Agent (EdgarEntitiesApi)
+   - Download Agent (RenderApi)
+   - PDF Generator Agent (PdfGeneratorApi)
+
+2. [IN PROGRESS] Implement remaining SEC-API agents (14 out of 33 completed):
+   - Form ADV Firms Agent
+   - Form ADV Individuals Agent
+   - Form ADV Brochures Agent
+   - Insider Trading Agent
+   - 13F Holdings Agent
+   - 13F Cover Pages Agent
+   - 13D/G Ownership Agent
+   - And more from the agents catalog in PLAN.md
+
+3. [TODO] Create standardized tests for each agent:
+   - Test valid parameters and successful responses
+   - Test error handling for invalid parameters
+   - Test rate limiting and authentication errors
+
+### Phase 3: Context Preservation Implementation
+
+1. [TODO] Enhance the agent framework to maintain context between steps:
    - Add context tracking to company resolution results
    - Store filing metadata in context when retrieving filings
    - Preserve section information when extracting content
    - Maintain financial data context for XBRL results
 
-2. Update core analyzer implementation:
+2. [TODO] Update core analyzer implementation:
    - Add context manager class to `sec_analyzer.py`
    - Implement contextual enrichment for financial data
    - Add metadata preservation for textual sections
    - Create helper functions for context tracking
 
-### Phase 3: Multi-Filing Query Support
+### Phase 4: Agent Orchestration with LangGraph
 
-1. Add support for retrieving and comparing multiple filings:
-   - Implement date range handling for historical queries
-   - Add company comparison functionality
-   - Create helpers for aligning similar sections across filings
-   - Support for tracking changes between filings
+1. [TODO] Develop LangGraph workflow for orchestrating agents:
+   - Implement smart planner node
+   - Create agent nodes for each SEC-API endpoint
+   - Define state schema for tracking agent interactions
+   - Set up conditional branching based on query type
 
-2. Enhance contextual retrieval for multi-filing queries:
-   - Preserve relationships between related filings
-   - Track temporal context for time-series analyses
-   - Maintain company context for cross-company comparisons
-
-### Phase 4: Testing and Refinement
-
-1. Create test cases for various query types:
-   - Financial metric queries (revenue, assets, etc.)
-   - Textual section queries (MD&A, risk factors, etc.)
-   - Comparative analyses (across time or companies)
-   - Change detection queries
-
-2. Validate context preservation:
-   - Ensure company context is maintained
-   - Verify temporal context for time-series queries
-   - Validate section context for textual analyses
-
-3. Performance optimization:
-   - Reduce redundant SEC-API calls
-   - Optimize context storage
-   - Improve response generation with proper context
-
-## Implementation Details
-
-### File Structure
-
-```
-sec/
-├── .env                      # Environment variables
-├── requirements.txt          # Project dependencies
-├── README.md                 # Project documentation
-├── roadmap.txt               # Development roadmap
-├── history.txt               # Development history
-├── suggestions.txt           # Future improvement ideas
-│
-├── sec_api_knowledge.py      # SEC API knowledge mappings
-├── sec_analyzer.py           # Basic implementation
-├── sec_analyzer_with_chunking.py  # Implementation with text chunking
-├── sec_analyzer_langgraph.py # Implementation with LangGraph
-│
-├── query_api/                # SEC Query API implementation
-│   ├── query_api.md          # Documentation
-│   └── queryapi_toolv5.py    # Current implementation
-│
-├── extractor_api/            # SEC Extractor API implementation
-│   ├── Extractor_API.md      # Documentation
-│   └── extractor_apiv9.py    # Current implementation
-│
-├── edgar_entities_api/       # SEC EDGAR Entities API implementation
-│   ├── edgar_entities_api.md # Documentation
-│   └── edgar_entities_apiv2.py # Current implementation
-│
-├── mapping_api/              # SEC Mapping API implementation
-│   └── mapping_apiv1.py      # Current implementation
-│
-└── full_text_search/         # SEC Full Text Search implementation
-    ├── sec_api_advanced_queries.md # Documentation
-    └── sec_api_langchain_fulltextsearch_tool_v8.py # Current implementation
-```
-
-### Key Components
-
-1. **SEC API Knowledge Module** (`sec_api_knowledge.py`):
-   - Section ID mappings for different form types
-   - XBRL field mappings for financial metrics
-   - Query intent detection functions
-   - Tool selection logic
-
-2. **API Modules**:
-   - **Query API**: For finding and filtering SEC filings
-   - **Extractor API**: For retrieving specific sections
-   - **Edgar Entities API**: For entity information
-   - **Mapping API**: For company resolution
-   - **Full Text Search API**: For content searching
-
-3. **Context Manager** (to be added to each implementation):
-   - Company context tracking
-   - Filing metadata preservation
-   - Section hierarchy maintenance
-   - Financial data context enrichment
-
-4. **Query Processor** (core of each implementation):
-   - Query parsing and understanding
-   - Tool selection based on query intent
-   - Context-aware execution
-   - Response generation with proper context
-
-### Dependencies
-
-```
-sec-api>=1.0.0         # Official SEC-API Python client
-langchain>=0.1.0       # For LLM integration
-langchain_openai>=0.0.1 # For OpenAI models
-python-dotenv>=1.0.0   # For environment variables
-openai>=1.0.0          # For OpenAI API access
-langgraph>=0.0.23      # Only for LangGraph implementation
-```
-
-## Testing Criteria
-
-1. **Query Understanding**:
-   - Correctly identifies companies mentioned in queries
-   - Properly determines time periods referenced
-   - Accurately detects query intent (financial vs. textual)
-   - Selects appropriate SEC-API tools
-
-2. **Context Preservation**:
-   - Maintains company context throughout analysis
-   - Preserves filing metadata for reference
-   - Tracks section relationships for textual analysis
-   - Retains financial data context for metrics
-
-3. **Response Accuracy**:
-   - Provides correct financial data with proper context
-   - Accurately extracts and analyzes textual sections
-   - Properly compares multiple filings when required
-   - Correctly identifies changes between filings
-
-## Example Test Queries
-
-```
-# Financial Data Extraction
-"What did Immix Biopharma report as revenue for the quarter ended September 30, 2024?"
-"How many shares outstanding did Apple have as of their latest 10-K?"
-
-# Textual Section Analysis
-"Summarize the Management Discussion and Analysis section of Microsoft's 2023 10-K"
-"What are the main risk factors mentioned in Tesla's latest 10-Q?"
-
-# Comparative Analysis
-"Identify and list risk factors that are similar across Apple's four most recent quarterly filings."
-"Compare revenue recognition policies between Microsoft and Amazon in their 2023 10-K filings."
-
-# Change Detection
-"Identify new significant accounting policies introduced in Amazon's latest quarterly report."
-"Detect and analyze new footnote disclosures related to cybersecurity in Tesla's most recent 10-Q."
-```
-
-## Next Immediate Steps
-
-1. Implement the Context Manager class for the basic analyzer
-2. Add context preservation to all SEC-API tool calls
-3. Update query processing to use contextual information
-4. Test with financial metric queries as a baseline
+2. [TODO] Implement end-to-end workflows:
+   - Financial data extraction workflows
+   - Textual section analysis workflows
+   - Comparative analysis workflows
+   - Change detection workflows
 
 ## Current Status
 
-The SEC agent framework is implemented and can process queries without looping issues. However, there are API access issues that need to be resolved:
+We have successfully implemented and thoroughly tested 8 critical SEC-API agents:
 
-1. The Extractor API cannot process the filing URLs we're passing it (error: "filing type not supported")
-2. The XBRL-to-JSON API cannot find XBRL data for the filings we're trying to access
+1. **Filing Search Agent**: Searches for SEC filings with full query language support
+2. **Full Text Search Agent**: Performs content-based searches within filings
+3. **Section Extraction Agent**: Extracts specific sections from 10-K, 10-Q, and 8-K filings
+4. **XBRL Converter Agent**: Converts XBRL data to structured JSON for financial analysis
+5. **Mapping Agent**: Resolves company identifiers (name, ticker, CIK) and lists companies
+6. **EDGAR Entities Agent**: Retrieves company information from the EDGAR database
+7. **Download Agent**: Downloads SEC filings in HTML format
+8. **PDF Generator Agent**: Generates PDF versions of SEC filings
 
-Next immediate task: Fix XBRL data extraction from the filings to get the revenue information.
+All agents follow a consistent pattern with:
+- Standardized input validation
+- Uniform error handling
+- Rate limit management
+- Clear response formatting
+- Comprehensive test coverage
+
+Each agent has its own plan file (`*_agent_plan.md`) that documents its capabilities, methods, parameters, and response formats in detail, making them easy to understand and extend.
 
 ## Next Steps
 
-1. API Verification (Priority)
-   - Test XBRL extraction with the most recent filing URL
-   - Verify correct filing URL format for XBRL API
-   - Document successful XBRL extraction patterns
-   - Implement proper error handling for missing XBRL data
+1. **Complete Agent Implementation** (Priority)
+   - Continue implementing the remaining SEC-API agents
+   - Focus on high-value agents like Form 13F, Insider Trading, and Executive Compensation
+   - Maintain consistent structure across all implementations
+   - Ensure thorough test coverage for each agent
 
-2. Core Functionality
-   - Focus on financial data extraction
-   - Implement proper error messages when XBRL data isn't available
-   - Add fallback methods for financial data retrieval
-   - Handle edge cases gracefully
+2. **Create Agent Orchestration Framework**
+   - Develop a planner agent that can determine which tools to use
+   - Implement LangGraph for state management and workflow orchestration
+   - Create a context preservation mechanism that maintains information between steps
+   - Build example workflows for common use cases
+
+3. **Implement Advanced Query Capabilities**
+   - Multi-filing comparison
+   - Financial data extraction and analysis
+   - Trend detection across multiple quarters
+   - SEC filing change analysis
 
 Dependencies:
 - SEC-API.io account and valid API key
-- Python packages: sec-api, python-dotenv
+- Python packages: sec-api, python-dotenv, langgraph
 
 Testing Criteria:
 1. API Connection
@@ -249,9 +155,8 @@ Testing Criteria:
    - Validates input parameters
 
 DO NOT:
-- Over-engineer with LangGraph/agents
-- Add unnecessary abstractions
-- Implement features not directly related to SEC filing analysis
+- Over-engineer with unnecessary abstractions
+- Add features not directly related to SEC filing analysis
 - Use LLMs for data that can be directly fetched from SEC-API
 
 The test_sec_api.py exists for basic API testing 
