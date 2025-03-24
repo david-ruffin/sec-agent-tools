@@ -186,17 +186,6 @@ def determine_form_type(query: str) -> str:
     # Default to most recent filing for general queries
     return "10-K"
 
-def extract_company_info_type(query: str) -> str:
-    """Determine what type of company identifier is being used in the query."""
-    query = query.lower()
-    
-    if re.search(r'\b[A-Z]{1,5}\b', query, re.IGNORECASE):  # Check for likely ticker pattern
-        return "ticker"
-    elif re.search(r'\b\d{10}\b', query):  # CIK pattern (10 digits)
-        return "cik"
-    else:
-        return "name"  # Default to company name
-
 def get_section_id(form_type: str, section_name: str) -> Optional[str]:
     """Get the section ID for a given form type and section name."""
     section_name = section_name.lower()
@@ -275,7 +264,6 @@ def analyze_query_for_tools(query: str) -> Dict[str, Any]:
         "query": query,
         "requires_company_resolution": True,  # Almost always needed first
         "form_type": determine_form_type(query),
-        "company_identifier_type": extract_company_info_type(query),
         "date_range": extract_date_from_query(query),
         "requires_financial_data": is_financial_metric_query(query),
         "requires_section_extraction": is_textual_analysis_query(query),

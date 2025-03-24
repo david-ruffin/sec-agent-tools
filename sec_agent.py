@@ -103,7 +103,7 @@ def create_planning_agent():
                 # Map the parameters to what the function expects
                 mapped_params = {name: kwargs[name] for name in param_names}
                 result = tool_func(**mapped_params)
-                return json.dumps(result)
+                return result  # Return the raw result without json.dumps()
             return wrapped
         
         # Create the tool with proper schema
@@ -135,6 +135,14 @@ def create_planning_agent():
         2. Use the appropriate tools to gather that information
         3. Keep track of what information you have and what you still need
         4. Generate a final answer when you have all needed information
+        
+        IMPORTANT: When constructing SEC-API queries, you MUST use the correct field names:
+        - Use "formType" (not "form_type") for the form type
+        - Use "filedAt" (not "filed_at") for filing date
+        - Use "cik" for the company identifier
+        
+        For example, a correct query would be:
+        "ticker:AAPL AND formType:\"10-K\" AND filedAt:[2022-01-01 TO 2022-12-31]"
         
         For each step:
         1. THINK about what information you need and what tool can provide it

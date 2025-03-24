@@ -26,6 +26,7 @@ def validate_query(query: Dict[str, Any]) -> Optional[str]:
     if not isinstance(query, dict):
         return "query must be a dictionary"
         
+    # Check that query contains the "query" field which is the actual query string
     if "query" not in query:
         return "query.query is required"
         
@@ -48,7 +49,7 @@ def validate_query(query: Dict[str, Any]) -> Optional[str]:
     return None
 
 def filing_search_agent(
-    query: Dict[str, Any],
+    query: Union[Dict[str, Any], str],
     download_format: Optional[str] = None,
     stream_mode: bool = False,
     api_key: Optional[str] = None,
@@ -61,6 +62,7 @@ def filing_search_agent(
     
     Args:
         query: Dictionary containing search parameters (query string, from, size, sort)
+               or a string that will be properly formatted into the query dictionary
         download_format: Optional format for downloading ('original', 'html', 'pdf')
         stream_mode: Whether to use real-time streaming mode (currently not implemented)
         api_key: Optional API key that overrides the environment variable
@@ -102,6 +104,18 @@ def filing_search_agent(
             "metadata": metadata
         }
     
+    # Process query parameter based on its type
+    if isinstance(query, str):
+        # If query is a string, format it into the expected dictionary structure
+        formatted_query = {
+            "query": query,
+            "from": "0",
+            "size": "10",
+            "sort": [{"filedAt": {"order": "desc"}}]
+        }
+        logger.info(f"Converted string query to formatted query: {formatted_query}")
+        query = formatted_query
+    
     # Validate query structure and syntax
     validation_error = validate_query(query)
     if validation_error:
@@ -111,6 +125,9 @@ def filing_search_agent(
             "error": validation_error,
             "metadata": metadata
         }
+    
+    # Log the final query being sent to SEC-API
+    logger.info(f"Sending SEC-API query: {query}")
     
     try:
         api_key = api_key or SEC_API_KEY
